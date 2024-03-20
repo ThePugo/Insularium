@@ -33,12 +33,6 @@
 
 <body>
     <div class="hero_area">
-        <!-- Imagen de fondo -->
-        <div class="hero_bg_box">
-            <div class="bg_img_box">
-                <img src="images/contact-bg.png" alt="background of contact section">
-            </div>
-        </div>
 
         <!-- Header -->
         <header class="header_section">
@@ -50,8 +44,8 @@
                         </span>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class=""> </span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -66,7 +60,8 @@
                                 <a class="nav-link" href="team.html">Equipo</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="contact.html">Contacto<span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="contact.html">Contacto<span
+                                        class="sr-only">(current)</span></a>
                             </li>
                         </ul>
                     </div>
@@ -81,12 +76,50 @@
                 </nav>
             </div>
         </header>
+        <div class="contact-title">
+            <div class="contact-title image">
+                <img src="images/send-mail.png" alt="Logo send mail">
+            </div>
+            <h1>Estaremos encantados de escucharte</h1>
+        </div>
     </div>
 
     <!-- FORM DE CONTACTO -->
     <section class="contact_section">
-        <div>
-            
+        <div class="cards1">
+            <div class="container container-hero-phone">
+                <div class="card-slider-title-container related hero-fristone-tablet">
+                    <div class="contact-section">
+                        <div class="contact-container">
+                            <div class="left-section">
+                                <h1 class="h1contact">Vamos a hablar</h1>
+                            </div>
+                            <div class="right-section">
+                                <div class="main-form">
+                                    <form id="email-form" name="email-form" data-name="email-form">
+                                        <input type="text" class="input-field form1 w-field" maxlength="256" name="name"
+                                            data-name="Name" placeholder="Tu nombre" id="name" required>
+                                        <input type="email" class="input-field w-field" maxlength="256" name="email"
+                                            data-name="Email" placeholder="Tu email" id="email" required>
+
+                                        <textarea name="field" maxlength="5000" id="field"
+                                            class="textarea-field w-input" required
+                                            placeholder="Escríbenos algo..."></textarea>
+                                        <input type="submit" value="Enviar" data-wait="Por favor, espera..."
+                                            class="submit-button form-button w-button"></input>
+                                    </form>
+                                </div>
+                                <div class="success-contact">
+
+                                </div>
+                                <div class="error-contact">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -95,10 +128,10 @@
     <section class="footer_section">
         <div class="container">
             <p>
-            &copy; <span id="displayYear"></span> All Rights Reserved By UIB
+                &copy; <span id="displayYear"></span> All Rights Reserved By UIB
             </p>
         </div>
-        </section>
+    </section>
 </body>
 
 </html>

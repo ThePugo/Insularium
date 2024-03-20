@@ -10,6 +10,7 @@
     <meta name="author" content="" />
     <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
     <script type="module" src="js/custom.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
     <title>Insularium</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -88,9 +89,11 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-3 col-sm-6">
                             <div class="box">
-                                <div class="img-box">
-                                    <img src="images/creadores/sasha.jpg">
-                                </div>
+                                <button class="team-button" onclick="show('sasha')">
+                                    <div class="img-box">
+                                        <img src="images/creadores/sasha.jpg">
+                                    </div>
+                                </button>
                                 <div class="detail-box">
                                     <h5>
                                         Sasha Cammarata
@@ -105,9 +108,11 @@
                         </div>
                         <div class="col-lg-3 col-sm-6">
                             <div class="box">
-                                <div class="img-box">
-                                    <img src="images/creadores/mario.jpg">
-                                </div>
+                                <button class="team-button" onclick="show('mario')">
+                                    <div class="img-box">
+                                        <img src="images/creadores/mario.jpg">
+                                    </div>
+                                </button>
                                 <div class="detail-box">
                                     <h5>
                                         Mario Ventura
@@ -122,9 +127,11 @@
                         </div>
                         <div class="col-lg-3 col-sm-6">
                             <div class="box">
-                                <div class="img-box">
-                                    <img src="images/creadores/enrique.jpg">
-                                </div>
+                                <button class="team-button" onclick="show('enrique')">
+                                    <div class="img-box">
+                                        <img src="images/creadores/enrique.jpg">
+                                    </div>
+                                </button>
                                 <div class="detail-box">
                                     <h5>
                                         José Enrique Sánchez
@@ -138,6 +145,18 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info_section layout_padding" id="info" style="display: none;">
+            <div class="container-fluid">
+                <div class="heading_container heading_center">
+                    <h2>
+                        Información
+                    </h2>
+                </div>
+                <div class="info_container" id="info_container">
                 </div>
             </div>
         </section>

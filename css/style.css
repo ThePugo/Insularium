@@ -848,10 +848,36 @@ h4 {
 }
 
 /* client section end */
-.info_section {
-  background-color: #222222;
-  color: #ffffff;
-  padding: 45px 0 15px 0;
+.info_section h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.info_box {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #333;
+  text-align: center;
+  max-width: 580px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 2 2 45%;
+}
+
+.info_box h3 {
+  margin-top: 10px;
+  color:red;
+  font-weight: bold;
+}
+
+.info_section .info_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 180px;
 }
 
 .info_section h4 {
@@ -1378,4 +1404,259 @@ h4 {
   display: inline-block;
   background-size: cover; /* Ajusta la imagen para cubrir completamente el fondo del enlace */
   margin-right: 20px; /* Margen derecho opcional entre los elementos */
+}
+
+.contact-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title .image {
+  margin-top:75px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title img {
+  text-align: center;
+  height: auto;
+  max-height: 80px;
+  display: block;
+}
+
+.contact-title h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.form-group p {
+  font-size: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px; /* Espacio entre cada grupo de elementos */
+}
+
+label {
+  display: block; /* Hacer que las etiquetas ocupen todo el ancho */
+}
+
+input, select {
+  width: 100%; /* Hacer que los campos de entrada ocupen todo el ancho disponible */
+}
+
+.title-card-slider {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.left-section {
+  position:relative;
+  width: 480px;
+  height: 360px;
+  background-image: url('images/chaplin.gif');
+  background-position: 0px 0px;
+  background-size: cover;
+}
+
+.h1contact {
+  position: absolute;
+  left: auto;
+  top: -81px;
+  right: -40px;
+  bottom: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  font-size: 120px;
+  line-height: 105px;
+}
+
+.contact-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1180px;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 89px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.right-section {
+  width: 479px;
+  height: 437px;
+  margin-bottom: 0px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+
+.input-field {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 32px;
+  padding-left: 20px;
+  border: 1px none #000;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.w-input, .w-select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333333;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+.input-field.form1 {
+  padding-left: 20px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  white-space: normal;
+}
+
+.textarea-field {
+  width: 100%;
+  height: auto;
+  min-height: 186px;
+  margin-bottom: 38px;
+  padding-top: 10px;
+  padding-left: 20px;
+  border: 1px none #000;
+  border-radius: 20px;
+  background-color: #3b3b3b;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+textarea {
+  resize: none;
+}
+
+.team-button {
+  border-radius: 300px;
+  border: none; /* Remove border */
+  background: transparent; /* Transparent background */
+  outline: none; /* Remove outline */
+  position: relative; /* Ensure the position is set to relative for internal absolute positioning */
+  overflow: hidden; /* Ensure no content spills out */
+}
+
+.submit-button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 187px;
+  height: 47px;
+  margin-right: 20px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #d41f2a;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+
+.submit-button:hover {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 187px;
+  height: 47px;
+  margin-right: 20px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #fc3946;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  text-decoration: none;
+}
+
+.submit-button.form-button {
+  margin-right: auto;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 700;
+}
+
+.box .team-button:hover {
+  transition: all 1s;
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0,0,0,1);
+  object-fit: cover;
+  display: inline-block;
+  background-color: gray;
+  background-size: cover;
+  position: relative;
+  text-align: center;
 }
