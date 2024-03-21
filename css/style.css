@@ -1206,6 +1206,9 @@ h4 {
   background-size: cover;
   position: relative;
   text-align: center;
+  transition: transform 1s, box-shadow 1s; 
+  transform: scale(1); 
+  box-shadow: none; 
 }
 
 .filmSlider:hover {
@@ -1708,4 +1711,35 @@ textarea {
   text-align: center; /* Justificar el texto */
   margin: 0 auto;
   max-width: 800px; /* Controla el ancho máximo del texto */
+}
+
+#pelipanel{
+background-color: black;
+}
+
+#pelicart:hover {
+  opacity: 0.3;
+}
+
+.infocartlogo{
+  position: absolute;
+  padding-left: 5px;
+  padding-top: 5px;
+  top: 0;
+  left: 0;
+  transition: opacity 0.3s ease; 
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.infocartlogo {
+  opacity: 0; 
+}
+
+.filmSlider:hover .infocartlogo{
+  opacity: 1;
+}
+
+#pelicart:not(:hover) {
+  opacity: 1;
 }
