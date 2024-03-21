@@ -1698,12 +1698,13 @@ textarea {
   text-align: center;
   margin-bottom: 20px;
   font-size: 2rem; /* Tamaño de título */
-  color: #333; /* Color del texto */
+  color: white; /* Color del texto */
+  font-weight: bold;
 }
 
 .insularium_about_section p {
   font-size: 1rem; /* Tamaño del texto */
-  color: #666; /* Color del texto */
+  color: white; /* Color del texto */
   text-align: justify; /* Justificar el texto */
   margin: 0 auto;
   max-width: 800px; /* Controla el ancho máximo del texto */
