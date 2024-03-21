@@ -1706,7 +1706,7 @@ textarea {
 }
 
 .insularium_about_section p {
-  font-size: 2rem; /* Tamaño del texto */
+  font-size: 22px; /* Tamaño del texto */
   color: white; /* Color del texto */
   text-align: center; /* Justificar el texto */
   margin: 0 auto;
