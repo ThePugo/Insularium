@@ -656,6 +656,22 @@ h4 {
   padding-bottom: 50px;
 }
 
+.team_section-inicio h2 {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.team_section-inicio h2 span {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #e43024;
+}
+
 /*team section */
 .team_section {
   text-align: center;
@@ -670,14 +686,6 @@ h4 {
   font-size: 40px;
   font-weight: bold;
   color: #ffffff;
-}
-
-.team_section h2 span {
-  margin-top: 30px;
-  text-align: center;
-  font-size: 40px;
-  font-weight: bold;
-  color: #e43024;
 }
 
 .team_section .heading_container {
