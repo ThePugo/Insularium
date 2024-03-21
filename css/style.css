@@ -1705,12 +1705,20 @@ textarea {
   font-weight: bold;
 }
 
+.insularium_about_section h2 span {
+  color: red;
+}
+
 .insularium_about_section p {
   font-size: 22px; /* Tamaño del texto */
   color: white; /* Color del texto */
   text-align: center; /* Justificar el texto */
   margin: 0 auto;
   max-width: 800px; /* Controla el ancho máximo del texto */
+}
+
+.insularium_about_section p span {
+  color: red;
 }
 
 #pelipanel{
