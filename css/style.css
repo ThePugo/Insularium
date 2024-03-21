@@ -1688,3 +1688,26 @@ textarea {
   position: relative; /* Ensure the position is set to relative for internal absolute positioning */
   overflow: hidden; /* Ensure no content spills out */
 }
+
+.insularium_explanation_section {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.insularium_explanation_section .container {
+  max-width: 960px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.insularium_explanation_section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.insularium_explanation_section p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+}
