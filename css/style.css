@@ -649,6 +649,13 @@ h4 {
   background-color: #e43024;
 }
 
+.team_section-inicio {
+  text-align: center;
+  background-color: #222222;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
 /*team section */
 .team_section {
   text-align: center;
