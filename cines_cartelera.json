@@ -1,0 +1,5180 @@
+{
+  "@context": "https://schema.org",
+  "@type": "EventSeries",
+  "name": "Proyecciones",
+  "subEvent": [
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Cazafantasmas: Imperio helado",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Cazafantasmas: Imperio helado",
+        "sameAs": "https://www.imdb.com/title/tt21235248/?language=es-es",
+        "duration": "T0M116S",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=pc7jDuDTLVw"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/cazafantasmas_imperio_helado.jpg",
+        "description": "Después de los eventos de Oklahoma, el equipo de Cazafantasmas regresa a donde comenzó todo: ¡Nueva York! La historia de la familia Spengler continúa con un nuevo grupo de Cazafantasmas.",
+        "director": {
+          "@type": "Person",
+          "name": "Gil Kenan"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Carrie Coon"
+          },
+          {
+            "@type": "Person",
+            "name": "Mckenna Grace"
+          },
+          {
+            "@type": "Person",
+            "name": "Paul Rudd"
+          }
+        ],
+        "genre": "Ciencia Ficción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T16:45:00Z",
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T15:50:00Z",
+            "2024-04-20T18:10:00Z",
+            "2024-04-20T20:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T17:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:20:00Z",
+            "2024-04-20T16:15:00Z",
+            "2024-04-20T19:00:00Z",
+            "2024-04-20T22:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T18:00:00Z",
+            "2024-04-20T22:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T16:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en Cines Canal Salat",
+          "doorTime": [
+            "2024-04-20T16:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Canal Salat",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Ciutadella de Menorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07760",
+                  "streetAddress": "Carrer de Sant Antoni Mª. Claret, s/n, 07760 Ciutadella de Menorca, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 40.00115868829252,
+                  "longitude": 3.845853166226369
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en Cine Regio Ibiza",
+          "doorTime": [
+            "2024-04-20T16:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cine Regio Ibiza",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Sant Antoni de Portmany",
+                  "addressRegion": "ES",
+                  "postalCode": "07820",
+                  "streetAddress": "Carrer Barcelona, 5, 07820 Sant Antoni de Portmany, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.984115947482536,
+                  "longitude": 1.3006806392011387
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Cazafantasmas: Imperio helado en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T17:50:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Civil war",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Civil war",
+        "sameAs": "https://www.imdb.com/title/tt17279496/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=mI_p9z2BfnE"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/civil_war.jpg",
+        "duration": "T0M90S",
+        "description": "En un futuro cercano donde América está sumida en una cruenta guerra civil, un equipo de periodistas y fotógrafos de guerra emprenderá un trepidante viaje por carretera en dirección a Washington DC. Su misión: Llegar antes de que las fuerzas rebeldes asalten la Casa Blanca y arrebaten el control al Presidente de los Estados Unidos.",
+        "director": {
+          "@type": "Person",
+          "name": "Alex Garland"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Kirsten Dunst"
+          },
+          {
+            "@type": "Person",
+            "name": "Wagner Moura"
+          },
+          {
+            "@type": "Person",
+            "name": "Stephen McKinley Henderson"
+          }
+        ],
+        "genre": "Acción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Civil war en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T14:00:00Z",
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Dune: Parte dos",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Dune: Parte dos",
+        "sameAs": "https://www.imdb.com/title/tt15239678/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=Qv7I3wDfFzI"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/dune_parte_dos.jpg",
+        "duration": "T0M166S",
+        "description": "'Dune: Parte dos' explora el mítico viaje de Paul Atreides mientras se une a Chani y a los Fremen en un camino de venganza contra los conspiradores que destruyeron a su familia. Ante la disyuntiva de elegir entre el amor de su vida y el destino del universo conocido, se esfuerza por evitar un futuro terrible que sólo él puede prever.",
+        "director": {
+          "@type": "Person",
+          "name": "Denis Villeneuve"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Timothée Chalamet"
+          },
+          {
+            "@type": "Person",
+            "name": "Rebecca Ferguson"
+          },
+          {
+            "@type": "Person",
+            "name": "Zendaya"
+          }
+        ],
+        "genre": "Aventuras",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Dune: Parte dos en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T17:00:00Z",
+            "2024-04-20T19:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Dune: Parte dos en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:05:00Z",
+            "2024-04-20T17:00:00Z",
+            "2024-04-20T20:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Dune: Parte dos en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T19:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Dune: Parte dos en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T18:45:00Z",
+            "2024-04-20T21:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Dune: Parte dos en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T20:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Dune: Parte dos en Cines Canal Salat",
+          "doorTime": [
+            "2024-04-20T20:50:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Canal Salat",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Ciutadella de Menorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07760",
+                  "streetAddress": "Carrer de Sant Antoni Mª. Claret, s/n, 07760 Ciutadella de Menorca, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 40.00115868829252,
+                  "longitude": 3.845853166226369
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de El especialista",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "El especialista",
+        "sameAs": "https://www.imdb.com/title/tt1684562/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=4k8I5TtURG8"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/el_especialista.jpg",
+        "duration": "T0M126S",
+        "description": "Es doble de acción y, como todo el mundo en la comunidad de dobles de acción, explota, recibe disparos, se estrella, atraviesa ventanas y cae desde las mayores alturas, todo para nuestro entretenimiento. Y ahora, recién salido de un accidente que casi acaba con su carrera, este héroe de clase trabajadora tiene que localizar a una estrella de cine desaparecida, resolver una conspiración e intentar recuperar al amor de su vida sin dejar de hacer su trabajo diario. ¿Qué podría salir bien?",
+        "director": {
+          "@type": "Person",
+          "name": "David Leitch"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Ryan Gosling"
+          },
+          {
+            "@type": "Person",
+            "name": "Emily Blunt"
+          },
+          {
+            "@type": "Person",
+            "name": "Aaron Taylor-Johnson"
+          }
+        ],
+        "genre": "Acción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "El especialista en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T18:00:00Z",
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de El milagro de la madre teresa",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "El milagro de la madre teresa",
+        "sameAs": "https://www.imdb.com/title/tt11228826/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=gh5TIvejxTI"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/el_milagro_de_la_madre_teresa.jpg",
+        "duration": "T0M122S",
+        "description": "Teresa y Kavita: Las vidas de dos mujeres apasionadas y de una integridad incondicional, entretejidas a través de varias generaciones. Ambas mujeres logran llevar a cabo su vocación, a pesar de sus serias dudas personales. Descubrimos una nueva dimensión de la Madre Teresa como la mujer detrás del mito. La pérdida de su fe inspira a la impetuosa Kavita, una joven inglesa de ascendencia india, a descubrir el amor y la compasión verdaderos en la Calcuta actual.",
+        "director": {
+          "@type": "Person",
+          "name": "Kamal Musale"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Kezia Burrows"
+          },
+          {
+            "@type": "Person",
+            "name": "Banita Sandhu"
+          },
+          {
+            "@type": "Person",
+            "name": "Shobu Kapoor"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "El milagro de la madre teresa en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T12:00:00Z",
+            "2024-04-20T14:30:00Z",
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Emma y el jaguar negro",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Emma y el jaguar negro",
+        "sameAs": "https://www.imdb.com/title/tt16740144/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=9XfL1cqfDaA"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/emma_y_el_jaguar_negro.jpg",
+        "duration": "T0M100S",
+        "description": "La selva amazónica donde ha crecido Emma le ha proporcionado una amistad única, la que mantiene con Hope, una jaguar que ella misma encontró siendo tan solo una cría. Un acontecimiento trágico hace que Emma tenga que trasladarse a la ciudad de Nueva York y dejar atrás a Hope. Los años pasan, pero Emma no deja de soñar con volver a la selva y estar con su amiga. Con 14 años, hecha una urbanita, Emma descubre que el pueblo de su infancia vive bajo la amenaza de traficantes de animales y decide que ha de volver a la Amazonia con su querida jaguar. Un plan descabellado del que Anja, su excéntrica y encantadora profesora de Biología, intenta disuadirla sin éxito. Junto a Anja, Emma se embarca en un emocionante viaje para reunirse con Hope y salvarla de aquellos que buscan destruir la selva y su fauna salvaje.",
+        "director": {
+          "@type": "Person",
+          "name": "Gilles De Maistre"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Emily Bett Rickards"
+          },
+          {
+            "@type": "Person",
+            "name": "Lumi Pollack"
+          },
+          {
+            "@type": "Person",
+            "name": "Wayne Charles Baker"
+          }
+        ],
+        "genre": "Aventuras",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Emma y el jaguar negro en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T19:00:00Z",
+            "2024-04-20T21:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Emma y el jaguar negro en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T16:20:00Z",
+            "2024-04-20T18:25:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Emma y el jaguar negro en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T18:55:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Emma y el jaguar negro en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T12:40:00Z",
+            "2024-04-20T16:00:00Z",
+            "2024-04-20T20:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Emma y el jaguar negro en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T18:35:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Freelance",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Freelance",
+        "sameAs": "https://www.imdb.com/title/tt15744298/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=kGYCTHUgAqU"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/freelance.jpg",
+        "duration": "T0M108S",
+        "description": "Un ex agente de las fuerzas especiales está atrapado en un soporífero trabajo de oficina sin salida (John Cena). A regañadientes acepta un encargo para proporcionar seguridad privada a una periodista fracasada (Alison Brie) mientras entrevista a un despiadado - pero impecablemente vestido - dictador (Juan Pablo Raba). Justo cuando está a punto de conseguir la primicia de su vida, estalla un golpe militar. Para salir con vida, el peculiar trío debe averiguar cómo sobrevivir a los asesinos, a la selva y a ellos mismos.",
+        "director": {
+          "@type": "Person",
+          "name": "Pierre Morel"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "John Cena"
+          },
+          {
+            "@type": "Person",
+            "name": "Alison Brie"
+          },
+          {
+            "@type": "Person",
+            "name": "Juan Pablo Raba"
+          }
+        ],
+        "genre": "Acción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Freelance en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T15:00:00Z",
+            "2024-04-20T19:30:00Z",
+            "2024-04-20T22:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Freelance en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:10:00Z",
+            "2024-04-20T15:30:00Z",
+            "2024-04-20T17:45:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Freelance en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T17:15:00Z",
+            "2024-04-20T22:20:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Freelance en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T16:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Godzilla y Kong: El nuevo imperio",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Godzilla y Kong: El nuevo imperio",
+        "sameAs": "https://www.imdb.com/title/tt14539740/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=9zPyVeJlzsU"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/godzilla_y_kong_el_nuevo_imperio.jpg",
+        "duration": "T0M120S",
+        "description": "Una aventura cinematográfica completamente nueva, que enfrentará al todopoderoso Kong y al temible Godzilla contra una colosal amenaza desconocida escondida dentro de nuestro mundo. La nueva y épica película profundizará en las historias de estos titanes, sus orígenes y los misterios de Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a estos seres extraordinarios y los unió a la humanidad para siempre.",
+        "director": {
+          "@type": "Person",
+          "name": "Adam Wingard"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Rebecca Hall"
+          },
+          {
+            "@type": "Person",
+            "name": "MBrian Tyree Henry"
+          },
+          {
+            "@type": "Person",
+            "name": "Dan Stevens"
+          }
+        ],
+        "genre": "Acción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:05:00Z",
+            "2024-04-20T17:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T17:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:12:00Z",
+            "2024-04-20T16:05:00Z",
+            "2024-04-20T18:15:00Z",
+            "2024-04-20T21:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T16:00:00Z",
+            "2024-04-20T18:15:00Z",
+            "2024-04-20T20:30:00Z",
+            "2024-04-20T22:45:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T18:50:00Z",
+            "2024-04-20T21:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en Cines Canal Salat",
+          "doorTime": [
+            "2024-04-20T21:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Canal Salat",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Ciutadella de Menorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07760",
+                  "streetAddress": "Carrer de Sant Antoni Mª. Claret, s/n, 07760 Ciutadella de Menorca, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 40.00115868829252,
+                  "longitude": 3.845853166226369
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en Cine Regio Ibiza",
+          "doorTime": [
+            "2024-04-20T12:30:00Z",
+            "2024-04-20T21:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cine Regio Ibiza",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Sant Antoni de Portmany",
+                  "addressRegion": "ES",
+                  "postalCode": "07820",
+                  "streetAddress": "Carrer Barcelona, 5, 07820 Sant Antoni de Portmany, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.984115947482536,
+                  "longitude": 1.3006806392011387
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Godzilla y Kong: El nuevo imperio en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T16:45:00Z",
+            "2024-04-20T19:05:00Z",
+            "2024-04-20T21:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Johnny Puff, Misión secreta",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Johnny Puff, Misión secreta",
+        "sameAs": "https://www.imdb.com/title/tt24855120/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=Ig0bI6gn2Og"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/johnny_puff_mision_secreta.jpg",
+        "duration": "T0M84S",
+        "description": "Johnny Puff y sus amigos se embarcan en una misión secreta para salvar Taigasville de los malvados planes de Otto von Walrus.",
+        "director": {
+          "@type": "Person",
+          "name": "Néstor F. Dennis"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Johnny Depp"
+          }
+        ],
+        "genre": "Animación",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Johnny Puff, Misión secreta en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T16:45:00Z",
+            "2024-04-20T19:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Johnny Puff, Misión secreta en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:20:00Z",
+            "2024-04-20T15:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Kung Fu Panda 4",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Kung Fu Panda 4",
+        "sameAs": "https://www.imdb.com/title/tt21692408/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=Gid1iUPLFbQ"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/kung_fu_panda_4.jpg",
+        "duration": "T0M93S",
+        "description": "Sigue a Po en sus asombrosas aventuras en la antigua China, cuyo amor por el kung fu solo se compara con un apetito insaciable.",
+        "director": {
+          "@type": "Person",
+          "name": "Mike Mitchell"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Jack Black"
+          },
+          {
+            "@type": "Person",
+            "name": "Awkwafina"
+          },
+          {
+            "@type": "Person",
+            "name": "Viola Davis"
+          }
+        ],
+        "genre": "Animación",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T14:00:00Z",
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T15:30:00Z",
+            "2024-04-20T17:20:00Z",
+            "2024-04-20T19:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:05:00Z",
+            "2024-04-20T14:45:00Z",
+            "2024-04-20T15:50:00Z",
+            "2024-04-20T18:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T19:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T17:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en Cines Canal Salat",
+          "doorTime": [
+            "2024-04-20T15:30:00Z",
+            "2024-04-20T19:45:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Canal Salat",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Ciutadella de Menorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07760",
+                  "streetAddress": "Carrer de Sant Antoni Mª. Claret, s/n, 07760 Ciutadella de Menorca, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 40.00115868829252,
+                  "longitude": 3.845853166226369
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en Cine Regio Ibiza",
+          "doorTime": [
+            "2024-04-20T11:30:00Z",
+            "2024-04-20T19:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cine Regio Ibiza",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Sant Antoni de Portmany",
+                  "addressRegion": "ES",
+                  "postalCode": "07820",
+                  "streetAddress": "Carrer Barcelona, 5, 07820 Sant Antoni de Portmany, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.984115947482536,
+                  "longitude": 1.3006806392011387
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Kung Fu Panda 4 en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T17:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de La familia Benetón",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "La familia Benetón",
+        "sameAs": "https://www.imdb.com/title/tt29138109/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=f9_ExYeHSXM"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/la_familia_beneton.jpg",
+        "duration": "T0M93S",
+        "description": "Toni, un hombre cascarrabias, soltero y sin hijos, huye de los niños a toda costa. Su vida da un giro inesperado cuando su hermana fallece y de la noche a la mañana se convierte en tutor temporal de sus cinco hijos adoptados: cada uno de un país y procedencia diferente. Toni tendrá que enfrentarse a las diferencias culturales y a los retos de paternidad en el mundo moderno y descubrirá que la verdadera familia, es la que uno elige.",
+        "director": {
+          "@type": "Person",
+          "name": "Joaquín Mazón"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Leo Harlem"
+          },
+          {
+            "@type": "Person",
+            "name": "El Langui"
+          },
+          {
+            "@type": "Person",
+            "name": "Diana Bovio"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "La familia Benetón en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T14:10:00Z",
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T21:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La familia Benetón en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:10:00Z",
+            "2024-04-20T16:00:00Z",
+            "2024-04-20T18:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La familia Benetón en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T16:50:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La familia Benetón en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:25:00Z",
+            "2024-04-20T14:50:00Z",
+            "2024-04-20T16:25:00Z",
+            "2024-04-20T18:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La familia Benetón en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T16:15:00Z",
+            "2024-04-20T18:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La familia Benetón en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T16:00:00Z",
+            "2024-04-20T19:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de La primera profecía",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "La primera profecía",
+        "sameAs": "https://www.imdb.com/title/tt5672290/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=vBrkqgRpNLQ"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/la_primera_profecia.jpg",
+        "duration": "T0M120S",
+        "description": "Cuando una joven estadounidense es enviada a Roma para iniciar una vida de servicio a la Iglesia, se topa con una oscuridad que pone en cuestión su propia fe y descubre una conspiración aterradora que espera provocar el nacimiento de la encarnación del mal.",
+        "director": {
+          "@type": "Person",
+          "name": "Arkasha Stevenson"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Nell Tiger Free"
+          },
+          {
+            "@type": "Person",
+            "name": "Tawfeek Barhom"
+          },
+          {
+            "@type": "Person",
+            "name": "Sonia Braga"
+          }
+        ],
+        "genre": "Thriller",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T19:00:00Z",
+            "2024-04-20T22:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T15:45:00Z",
+            "2024-04-20T18:10:00Z",
+            "2024-04-20T20:35:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T15:45:00Z",
+            "2024-04-20T18:10:00Z",
+            "2024-04-20T20:35:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T18:00:00Z",
+            "2024-04-20T19:40:00Z",
+            "2024-04-20T22:25:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T17:00:00Z",
+            "2024-04-20T21:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T18:30:00Z",
+            "2024-04-20T20:55:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en Cines Canal Salat",
+          "doorTime": [
+            "2024-04-20T18:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Canal Salat",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Ciutadella de Menorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07760",
+                  "streetAddress": "Carrer de Sant Antoni Mª. Claret, s/n, 07760 Ciutadella de Menorca, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 40.00115868829252,
+                  "longitude": 3.845853166226369
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en Cine Regio Ibiza",
+          "doorTime": [
+            "2024-04-20T15:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cine Regio Ibiza",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Sant Antoni de Portmany",
+                  "addressRegion": "ES",
+                  "postalCode": "07820",
+                  "streetAddress": "Carrer Barcelona, 5, 07820 Sant Antoni de Portmany, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.984115947482536,
+                  "longitude": 1.3006806392011387
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La primera profecía en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T18:45:00Z",
+            "2024-04-20T21:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Matusalén",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Matusalén",
+        "sameAs": "https://www.imdb.com/title/tt22085262/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=bydczZ1dW3k&pp=ygUJbWF0dXNhbGVu"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/matusalen.jpg",
+        "duration": "T0M100S",
+        "description": "'Envejecer es inevitable, madurar es opcional'. Esa es la máxima de 'El Alber', un rapero que a sus 44 añazos se matricula en la universidad por una apuesta con su padre. Si no aprueba todas deberá dejar 'esa tontería del rap' para siempre. En la universidad, el Alber se reencuentra con Amaia, locutora de radio y profesora allí, y descubre que le faltaba algo muy importante en su vida: El amor. Esta es la historia de un rapero cuarentón considerado un niño por sus padres y un abuelo por sus compañeros de clase. Le mandaron a la universidad para que cambiase y fue él, el que cambió a todos los demás. Es la historia de... MATUSALÉN.",
+        "director": {
+          "@type": "Person",
+          "name": "David Galán Galindo"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Julián López"
+          },
+          {
+            "@type": "Person",
+            "name": "Miren Ibarguren"
+          },
+          {
+            "@type": "Person",
+            "name": "Raúl Cimas"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Matusalén en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T14:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Matusalén en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T20:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Matusalén en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T20:55:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Matusalén en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T22:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Matusalén en Multicines Rívoli",
+          "doorTime": [
+            "2024-04-20T16:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Multicines Rívoli",
+            "screenCount": 3,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07003",
+                  "streetAddress": "Carrer d'Antoni Marquès, 25, Nord, 07003 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.57905644426936,
+                  "longitude": 2.649926182334891
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Menudas piezas",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Menudas piezas",
+        "sameAs": "https://www.imdb.com/title/tt28375638/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=iTFvGupoPG0&pp=ygUObWVudWRhcyBwaWV6YXM%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/menudas_piezas.jpg",
+        "duration": "T0M98S",
+        "description": "Candela cometió el error de pensar que el ascensor social solo funciona en una dirección, la de subida. Y ahora, tras un traumático e inesperado divorcio, pierde su trabajo en un colegio de élite. Por eso Candela tiene que volver al barrio del que salió y pedir ayuda a su hermana y su padre, esos a los que lleva años mirando por encima del hombro. Es hora de recolocar las piezas en el tablero, empezar de cero y buscar una segunda oportunidad. Pero la única que encuentra es dar clases en su antiguo instituto a estudiantes con problemas de integración. Pasa de la crème de la crème, a la crème de la mediocridad. Lo que Candela no se espera es que con ellos aprenderá que lo importante no es quién fuiste ayer, sino quién eres hoy; que un grupo de perdedores por los que nadie da un duro pueden acabar siendo campeones de España; y que, en el ajedrez, como en la vida, no importa si eres rey o peón, porque al final de la partida, ambos acaban en la misma caja.",
+        "director": {
+          "@type": "Person",
+          "name": "Nacho G. Velilla"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Alexandra Jiménez"
+          },
+          {
+            "@type": "Person",
+            "name": "María Adánez"
+          },
+          {
+            "@type": "Person",
+            "name": "Francesc Orella"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T15:30:00Z",
+            "2024-04-20T17:35:00Z",
+            "2024-04-20T19:40:00Z",
+            "2024-04-20T21:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:30:00Z",
+            "2024-04-20T15:45:00Z",
+            "2024-04-20T18:00:00Z",
+            "2024-04-20T20:15:00Z",
+            "2024-04-20T22:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T12:30:00Z",
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T18:30:00Z",
+            "2024-04-20T20:30:00Z",
+            "2024-04-20T22:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en Multicines Rívoli",
+          "doorTime": [
+            "2024-04-20T16:00:00Z",
+            "2024-04-20T18:00:00Z",
+            "2024-04-20T20:00:00Z",
+            "2024-04-20T22:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Multicines Rívoli",
+            "screenCount": 3,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07003",
+                  "streetAddress": "Carrer d'Antoni Marquès, 25, Nord, 07003 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.57905644426936,
+                  "longitude": 2.649926182334891
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T18:35:00Z",
+            "2024-04-20T20:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en Cines Canal Salat",
+          "doorTime": [
+            "2024-04-20T15:30:00Z",
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Canal Salat",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Ciutadella de Menorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07760",
+                  "streetAddress": "Carrer de Sant Antoni Mª. Claret, s/n, 07760 Ciutadella de Menorca, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 40.00115868829252,
+                  "longitude": 3.845853166226369
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en Cine Regio Ibiza",
+          "doorTime": [
+            "2024-04-20T17:45:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cine Regio Ibiza",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Sant Antoni de Portmany",
+                  "addressRegion": "ES",
+                  "postalCode": "07820",
+                  "streetAddress": "Carrer Barcelona, 5, 07820 Sant Antoni de Portmany, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.984115947482536,
+                  "longitude": 1.3006806392011387
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Menudas piezas en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T18:40:00Z",
+            "2024-04-20T20:45:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Rivales",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Rivales",
+        "sameAs": "https://www.imdb.com/title/tt16426418/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=2_ojxFOrAgQ&pp=ygUPcml2YWxlcyB0cmFpbGVy"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/rivales.jpg",
+        "duration": "T0M90S",
+        "description": "Zendaya interpreta a Tashi Duncan, una antigua prodigio del tenis convertida en entrenadora y una fuerza de la naturaleza que no pide disculpas por su estilo de juego dentro y fuera de la pista. Casada con un campeón con una mala racha de derrotas (Mike Faist), la estrategia de Tashi para la redención de su marido da un giro sorprendente cuando éste debe enfrentarse a Patrick (Josh O'Connor) - su antiguo mejor amigo y ex novio de Tashi. A medida que sus pasados y presentes chocan, y las tensiones se disparan, Tashi debe preguntarse a sí misma cuánto le costará ganar.",
+        "director": {
+          "@type": "Person",
+          "name": "Luca Guadagnino"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Zendaya"
+          },
+          {
+            "@type": "Person",
+            "name": "Josh O'Connor"
+          },
+          {
+            "@type": "Person",
+            "name": "Mike Faist"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Rivales en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T17:30:00Z",
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Spy X Family: Código blanco",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Spy X Family: Código blanco",
+        "sameAs": "https://www.imdb.com/title/tt26684398/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=gEYJivUY14k&pp=ygUic3B5IHggZmFtaWx5IGNvZGlnbyBibGFuY28gdHJhaWxlcg%3D%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/spyxfamily_codigo_blanco.jpg",
+        "duration": "T0M110S",
+        "description": "Película de la serie anime 'Spy×Family'. Él es un espía. Ella es una asesina. Juntos, Loid y Yor se guardan su doble vida para sí mismos mientras pretenden ser la familia perfecta. Sin embargo, su hija adoptiva Anya, una telépata, conoce apasionantes secretos de ambos sin que ellos lo sepan. Con el pretexto de llevar a su familia a una escapada de fin de semana invernal, el intento de Loid de avanzar en su misión actual, la Operación Strix, resulta difícil cuando Anya se involucra por error y desencadena eventos que amenazan la paz mundial.",
+        "director": {
+          "@type": "Person",
+          "name": "Takashi Katagiri"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Takuya Eguchi"
+          },
+          {
+            "@type": "Person",
+            "name": "Atsumi Tanezaki"
+          },
+          {
+            "@type": "Person",
+            "name": "Saori Hayami"
+          }
+        ],
+        "genre": "Animación",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Spy X Family: Código blanco en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T14:00:00Z",
+            "2024-04-20T17:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Spy X Family: Código blanco en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Un día cualquiera",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Un día cualquiera",
+        "sameAs": "https://www.imdb.com/title/tt23785676/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=wOP4aygAVvE&pp=ygURdW4gZGlhIGN1YWxxdWVpcmE%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/un_dia_cualquiera.jpg",
+        "duration": "T0M90S",
+        "description": "Los viajes de amigos son siempre un motivo de celebración, aparentemente, aunque en muchas ocasiones dejan mucho que desear. Los protagonistas de Un día cualquiera (José Texeira) han decidido juntarse todos en una casa rural para experimentar un fin de semana fantástico, sin embargo, lo que parece un viaje normal en sus vidas acabará siendo su mayor pesadilla. Cuando llegan al lugar reservado lo ven como un emplazamiento maravilloso y precioso, pero pronto descubrirán que no todo es como parece. Incluida su amistad.",
+        "director": {
+          "@type": "Person",
+          "name": "José Texeira"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Ariane Gaisán"
+          },
+          {
+            "@type": "Person",
+            "name": "Alberto Trejo"
+          },
+          {
+            "@type": "Person",
+            "name": "Fran Ofrecio"
+          }
+        ],
+        "genre": "Terror",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Un día cualquiera en Artesiete Fan",
+          "doorTime": [
+            "2024-04-20T18:30:00Z",
+            "2024-04-20T20:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Artesiete Fan",
+            "screenCount": 8,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07007",
+                  "streetAddress": "Carrer del Cardenal Rossell, s/n, Platja de Palma, 07007 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.553556,
+                  "longitude": 2.706722
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de The Beast (La bestia)",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "The Beast (La bestia)",
+        "sameAs": "https://www.imdb.com/title/tt14407336/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=gbNalIE4YyA&pp=ygUbdGhlIGJlYXN0IGxhIGJlc3RpYSB0cmFpbGVy"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/the_beast.jpg",
+        "duration": "T0M146S",
+        "description": "En un futuro próximo donde las emociones se han convertido en una amenaza, Gabrielle finalmente decide purificar su ADN en una máquina que la sumergirá en sus vidas anteriores y la liberará de todos los sentimientos.",
+        "director": {
+          "@type": "Person",
+          "name": "Bertrand Bonello"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Léa Seydoux"
+          },
+          {
+            "@type": "Person",
+            "name": "George MacKay"
+          },
+          {
+            "@type": "Person",
+            "name": "Guslagie Malanda"
+          }
+        ],
+        "genre": "Ciencia Ficción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "The Beast (La bestia) en CineCiutat",
+          "doorTime": [
+            "2024-04-20T16:50:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CineCiutat",
+            "screenCount": 4,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer de l'Emperadriu Eugènia, 6, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.58495306780948,
+                  "longitude": 2.6496003410711118
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Puan",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Puan",
+        "sameAs": "https://www.imdb.com/title/tt13866866/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=8i0om7ezuxI&pp=ygUMcHVhbiB0cmFpbGVy"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/puan.jpg",
+        "duration": "T0M116S",
+        "description": "En la Universidad de Buenos Aires surge una rivalidad entre dos profesores de Filosofía por un puesto de profesorado.",
+        "director": {
+          "@type": "Person",
+          "name": "María Alché"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Leonardo Sbaraglia"
+          },
+          {
+            "@type": "Person",
+            "name": "Lali Espósito"
+          },
+          {
+            "@type": "Person",
+            "name": "Julieta Zylberberg"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Puan en CineCiutat",
+          "doorTime": [
+            "2024-04-20T19:05:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CineCiutat",
+            "screenCount": 4,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer de l'Emperadriu Eugènia, 6, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.58495306780948,
+                  "longitude": 2.6496003410711118
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Puan en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T18:50:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Sangre en los labios",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Sangre en los labios",
+        "sameAs": "https://www.imdb.com/title/tt19637052/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=cXbLcUHd23c&pp=ygUlc2FuZ3JlIGVuIGxvcyBsYWJpb3MgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/sangre_en_los_labios.jpg",
+        "duration": "T0M116S",
+        "description": "Un romance alimentado por el ego, el deseo y el sueño americano.",
+        "director": {
+          "@type": "Person",
+          "name": "Rose Glass"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Anna Baryshnikov"
+          },
+          {
+            "@type": "Person",
+            "name": "Kristen Stewart"
+          },
+          {
+            "@type": "Person",
+            "name": "Dave Franco"
+          }
+        ],
+        "genre": "Romance",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Sangre en los labios en CineCiutat",
+          "doorTime": [
+            "2024-04-20T17:00:00Z",
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CineCiutat",
+            "screenCount": 4,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer de l'Emperadriu Eugènia, 6, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.58495306780948,
+                  "longitude": 2.6496003410711118
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Sangre en los labios en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T16:35:00Z",
+            "2024-04-20T18:45:00Z",
+            "2024-04-20T20:55:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Sangre en los labios en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:35:00Z",
+            "2024-04-20T15:55:00Z",
+            "2024-04-20T16:45:00Z",
+            "2024-04-20T19:20:00Z",
+            "2024-04-20T22:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Sangre en los labios en Cines Canal Salat",
+          "doorTime": [
+            "2024-04-20T12:30:00Z",
+            "2024-04-20T17:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Canal Salat",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Ciutadella de Menorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07760",
+                  "streetAddress": "Carrer de Sant Antoni Mª. Claret, s/n, 07760 Ciutadella de Menorca, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 40.00115868829252,
+                  "longitude": 3.845853166226369
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Animalia",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Animalia",
+        "sameAs": "https://www.imdb.com/title/tt17006040/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=CuXTTB-U5qk&pp=ygUaYW5pbWFsaWEgdHJhaWxlciBlc3Bhw7FvbCA%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/animalia.jpg",
+        "duration": "T0M95S",
+        "description": "A medida que se acerca el final de su embarazo, Itto y sus suegros ven cómo sus vidas dan un vuelco a causa de un suceso sobrenatural.",
+        "director": {
+          "@type": "Person",
+          "name": "Sofia Alaoui"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Oumaima Barid"
+          },
+          {
+            "@type": "Person",
+            "name": "Mehdi Dehbi"
+          },
+          {
+            "@type": "Person",
+            "name": "Fouad Oughaou"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Animalia en CineCiutat",
+          "doorTime": [
+            "2024-04-20T17:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CineCiutat",
+            "screenCount": 4,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer de l'Emperadriu Eugènia, 6, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.58495306780948,
+                  "longitude": 2.6496003410711118
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de El salto",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "El salto",
+        "sameAs": "https://www.imdb.com/title/tt15289660/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=IKmIYjF5kTo&pp=ygUQZWwgc2FsdG8gdHJhaWxlcg%3D%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/el_salto.jpg",
+        "duration": "T0M90S",
+        "description": "El Salto refleja la situación que viven los migrantes subsaharianos, tanto los que esperan traspasar las puertas de Europa, como los que ya han conseguido entrar.",
+        "director": {
+          "@type": "Person",
+          "name": "Benito Zambrano"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Moussa Sylla"
+          },
+          {
+            "@type": "Person",
+            "name": "Edith Martínez Val"
+          },
+          {
+            "@type": "Person",
+            "name": "Nansi Nsue"
+          }
+        ],
+        "genre": "Thriller",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "El salto en CineCiutat",
+          "doorTime": [
+            "2024-04-20T19:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CineCiutat",
+            "screenCount": 4,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer de l'Emperadriu Eugènia, 6, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.58495306780948,
+                  "longitude": 2.6496003410711118
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "El salto en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T18:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Pájaros",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Pájaros",
+        "sameAs": "https://www.imdb.com/title/tt14651070/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=6aDF4Ow0dvs&pp=ygURcGFqYXJvcyB0cmFpZWxyw6c%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/pajaros.jpg",
+        "duration": "T0M100S",
+        "description": "Un empleado de garaje recibe la propuesta de un usuario, aficionado a la ornitología, de llevarle en su coche en busca de una grulla que se ha perdido. Atravesarán media Europa convirtiendo la búsqueda en vuelo. Y el vuelo en aprendizaje.",
+        "director": {
+          "@type": "Person",
+          "name": "Pau Durà"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Javier Gutiérrez"
+          },
+          {
+            "@type": "Person",
+            "name": "Luis Zahera"
+          },
+          {
+            "@type": "Person",
+            "name": "Teresa Saponangelo"
+          }
+        ],
+        "genre": "Aventuras",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Pájaros en CineCiutat",
+          "doorTime": [
+            "2024-04-20T17:05:00Z",
+            "2024-04-20T19:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CineCiutat",
+            "screenCount": 4,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer de l'Emperadriu Eugènia, 6, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.58495306780948,
+                  "longitude": 2.6496003410711118
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Pájaros en Multicines Rívoli",
+          "doorTime": [
+            "2024-04-20T19:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Multicines Rívoli",
+            "screenCount": 3,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07003",
+                  "streetAddress": "Carrer d'Antoni Marquès, 25, Nord, 07003 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.57905644426936,
+                  "longitude": 2.649926182334891
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Monkey Man",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Monkey Man",
+        "sameAs": "https://www.imdb.com/title/tt9214772/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=BOSn67w68Ks&pp=ygUbbW9ua2V5IG1hbiB0cmFpbGVyIGVzcGHDsW9s"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/monkey_man.jpg",
+        "duration": "T0M113S",
+        "description": "Un delincuente liberado recientemente que vive en la India lucha por adaptarse a un mundo de avaricia corporativa y valores espirituales erosionados.",
+        "director": {
+          "@type": "Person",
+          "name": "Dev Patel"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Dev Patel"
+          },
+          {
+            "@type": "Person",
+            "name": "Sharlto Copley"
+          },
+          {
+            "@type": "Person",
+            "name": "Pitobash"
+          }
+        ],
+        "genre": "Acción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Monkey Man en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T12:10:00Z",
+            "2024-04-20T16:40:00Z",
+            "2024-04-20T19:05:00Z",
+            "2024-04-20T21:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Monkey Man en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T12:15:00Z",
+            "2024-04-20T12:30:00Z",
+            "2024-04-20T16:30:00Z",
+            "2024-04-20T18:25:00Z",
+            "2024-04-20T19:15:00Z",
+            "2024-04-20T20:30:00Z",
+            "2024-04-20T22:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Monkey Man en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T12:00:00Z",
+            "2024-04-20T22:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Monkey Man en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T17:30:00Z",
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Monkey Man en Eivissa Aficine",
+          "doorTime": [
+            "2024-04-20T20:15:00Z",
+            "2024-04-20T21:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Eivissa Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Eivissa",
+                  "addressRegion": "ES",
+                  "postalCode": "07800",
+                  "streetAddress": "Avenida de Cubells, s/n, 07800 Eivissa, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 38.912532590742266,
+                  "longitude": 1.42263943919851
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Pequeñas cartas indiscretas",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Pequeñas cartas indiscretas",
+        "sameAs": "https://www.imdb.com/title/tt20234774/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=PHYa9TOChLc&pp=ygUkcGVxdWXDsWFzIGNhcnRhcyBpbmRpc2NyZXRhcyB0cmFpbGVy"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/pequeñas_cartas_indiscretas.jpg",
+        "duration": "T0M102S",
+        "description": "Cuando los habitantes de Littlehampton empiezan a recibir cartas obscenas y vergonzosas, las sospechas recaen sobre la fogosa Rose, que podría perder la custodia de su hija. Un grupo de mujeres se propone resolver el misterio.",
+        "director": {
+          "@type": "Person",
+          "name": "Thea Sharrock"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Jessie Buckley"
+          },
+          {
+            "@type": "Person",
+            "name": "Olivia Colman"
+          },
+          {
+            "@type": "Person",
+            "name": "Timothy Spall"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Pequeñas cartas indiscretas en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T20:00:00Z",
+            "2024-04-20T22:05:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Pequeñas cartas indiscretas en Multicines Rívoli",
+          "doorTime": [
+            "2024-04-20T15:40:00Z",
+            "2024-04-20T17:40:00Z",
+            "2024-04-20T21:40:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Multicines Rívoli",
+            "screenCount": 3,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07003",
+                  "streetAddress": "Carrer d'Antoni Marquès, 25, Nord, 07003 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.57905644426936,
+                  "longitude": 2.649926182334891
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Los niños de Winton",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Los niños de Winton",
+        "sameAs": "https://www.imdb.com/title/tt13097932/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=OrfBqy0yXLg&pp=ygUlbG9zIG5pw7FvcyBkZSB3aW50b24gdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/los_niños_de_winton.jpg",
+        "duration": "T0M110S",
+        "description": "Sigue al humanitario británico Nicholas Winton, que ayudó a salvar a cientos de niños de los nazis en vísperas de la Segunda Guerra Mundial.",
+        "director": {
+          "@type": "Person",
+          "name": "James Hawes"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Anthony Hopkins"
+          },
+          {
+            "@type": "Person",
+            "name": "Lena Olin"
+          },
+          {
+            "@type": "Person",
+            "name": "Johnny Flynn"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Los niños de Winton en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T21:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Los niños de Winton en Multicines Rívoli",
+          "doorTime": [
+            "2024-04-20T18:20:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Multicines Rívoli",
+            "screenCount": 3,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07003",
+                  "streetAddress": "Carrer d'Antoni Marquès, 25, Nord, 07003 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.57905644426936,
+                  "longitude": 2.649926182334891
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Los niños de Winton en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T19:45:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "Los niños de Winton en OCINE PREMIUM Porto Pi",
+          "doorTime": [
+            "2024-04-20T12:20:00Z",
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "OCINE PREMIUM Porto Pi",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07015",
+                  "streetAddress": "Av. de Gabriel Roca, 54, Ponent, 07015 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.551639,
+                  "longitude": 2.620583
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Imaginary",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Imaginary",
+        "sameAs": "https://www.imdb.com/title/tt26658104/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=PDcmz1Hxk6o&pp=ygUaaW1hZ2luYXJ5IHRyYWlsZXIgZXNwYcOxb2w%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/imaginary.jpg",
+        "duration": "T0M104S",
+        "description": "Una mujer regresa a la casa de su infancia para descubrir que el amigo imaginario que dejó atrás es muy real y está descontenta por haberlo abandonado.",
+        "director": {
+          "@type": "Person",
+          "name": "Jeff Wadlow"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "DeWanda Wise"
+          },
+          {
+            "@type": "Person",
+            "name": "Taegen Burns"
+          },
+          {
+            "@type": "Person",
+            "name": "Pyper Braun"
+          }
+        ],
+        "genre": "Terror",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Imaginary en Cines Ocimax",
+          "doorTime": [
+            "2024-04-20T20:00:00Z",
+            "2024-04-20T22:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Cines Ocimax",
+            "screenCount": 15,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07010",
+                  "streetAddress": "Carrer del Bisbe Pere de Puigdorfila, 1, Nord, 07010 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.594778,
+                  "longitude": 2.648778
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Oppenheimer",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Oppenheimer",
+        "sameAs": "https://www.imdb.com/title/tt15398776/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=yLYbOe914ZU&pp=ygUcb3BwZW5oZWltZXIgdHJhaWxlciBlc3Bhw7FvbA%3D%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/oppenheimer.jpg",
+        "duration": "T0M180S",
+        "description": "La historia del científico J. Robert Oppenheimer y su rol en el desarrollo de la bomba atómica.",
+        "director": {
+          "@type": "Person",
+          "name": "Christopher Nolan"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Cillian Murphy"
+          },
+          {
+            "@type": "Person",
+            "name": "Emily Blunt"
+          },
+          {
+            "@type": "Person",
+            "name": "Matt Damon"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Oppenheimer en Multicines Rívoli",
+          "doorTime": [
+            "2024-04-20T20:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Multicines Rívoli",
+            "screenCount": 3,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07003",
+                  "streetAddress": "Carrer d'Antoni Marquès, 25, Nord, 07003 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.57905644426936,
+                  "longitude": 2.649926182334891
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de HLM Pussy",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "HLM Pussy",
+        "sameAs": "https://www.imdb.com/title/tt13866710/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=Y5Spd-PrE6k&pp=ygUaaGxtIHB1c3N5IHRyYWlsZXIgZXNwYcOxb2w%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/hlm_pussy.jpg",
+        "duration": "T0M101S",
+        "description": "Tres adolescentes suscitan protestas públicas tras publicar un vídeo en el que se identifica al agresor que atacó a uno de ellos.",
+        "director": {
+          "@type": "Person",
+          "name": "Nora el Hourch"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Leah Aubert"
+          },
+          {
+            "@type": "Person",
+            "name": "Médina Diarra"
+          },
+          {
+            "@type": "Person",
+            "name": "Salma Takaline"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "HLM Pussy en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T21:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Hispanoamérica, canto de vida y esperanza",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Hispanoamérica, canto de vida y esperanza",
+        "sameAs": "https://www.imdb.com/title/tt31064117/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=aGl6z251ESI&pp=ygUwaGlzcGFub2FtZXJpY2EgY2FudG8gZGUgdmlkYSB5IGVzcGVyYW56YSB0cmFpbGVy"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/hispanoamerica_canto_de_vida_y_esperanza.jpg",
+        "duration": "T0M115S",
+        "description": "En Hispanoamérica somos víctimas de un relato de santos indígenas y demonios españoles. Un relato que nos ha dejado huérfanos, pues nos roba los 3 siglos de la incomparable historia de la América Hispana, nuestra historia. Recuperémosla.",
+        "director": {
+          "@type": "Person",
+          "name": "José Luis López-Linares"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Guadalupe Jiménez Codinach"
+          },
+          {
+            "@type": "Person",
+            "name": "Aníbal Romero"
+          },
+          {
+            "@type": "Person",
+            "name": "Aurelio Valarezo"
+          }
+        ],
+        "genre": "Documental",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Hispanoamérica, canto de vida y esperanza en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T16:40:00Z",
+            "2024-04-20T19:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Mi camino interior",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Mi camino interior",
+        "sameAs": "https://www.imdb.com/title/tt15441522/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=uwpk4IQqX6Q&pp=ygUjbWkgY2FtaW5vIGludGVyaW9yIHRyYWlsZXIgZXNwYcOxb2w%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/mi_camino_interior.jpg",
+        "duration": "T0M94S",
+        "description": "Pierre es un famoso escritor y explorador. Pero una noche de borrachera, una terrible caída lo deja en coma. Cuando se despierta, apenas en pie y en contra de los consejos de todos, decide explorar Francia a pie, por los caminos más pequeños.",
+        "director": {
+          "@type": "Person",
+          "name": "Denis Imbert"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Jean Dujardin"
+          },
+          {
+            "@type": "Person",
+            "name": "Joséphine Japy"
+          },
+          {
+            "@type": "Person",
+            "name": "Izïa Higelin"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Mi camino interior en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T21:05:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Las cosas sencillas",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Las cosas sencillas",
+        "sameAs": "https://www.imdb.com/title/tt25971180/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=ssHaggJDHZw&pp=ygUkbGFzIGNvc2FzIHNlbmNpbGxhcyB0cmFpbGVyIGVzcGHDsW9s"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/las_cosas_sencillas.jpg",
+        "duration": "T0M95S",
+        "description": "Vincent es un famoso empresario de éxito. Un día, la avería de un coche en una carretera de montaña interrumpe temporalmente su frenético estilo de vida.",
+        "director": {
+          "@type": "Person",
+          "name": "Éric Besnard"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Lambert Wilson"
+          },
+          {
+            "@type": "Person",
+            "name": "Grégory Gadebois"
+          },
+          {
+            "@type": "Person",
+            "name": "Marie Gillain"
+          }
+        ],
+        "genre": "Comedia",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Las cosas sencillas en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T20:10:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de La zona de interés",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "La zona de interés",
+        "sameAs": "https://www.imdb.com/title/tt7160372/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=_FQwmkszP3I&pp=ygUjbGEgem9uYSBkZSBpbnRlcmVzIHRyYWlsZXIgZXNwYcOxb2w%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/la_zona_de_interés.jpg",
+        "duration": "T0M106S",
+        "description": "El comandante de Auschwitz, Rudolf Höss, y su esposa Hedwig, se esfuerzan por construir una vida de ensueño para su familia en una casa y un jardín junto al campo.",
+        "director": {
+          "@type": "Person",
+          "name": "Jonathan Glazer"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Christian Friedel"
+          },
+          {
+            "@type": "Person",
+            "name": "Sandra Hüller"
+          },
+          {
+            "@type": "Person",
+            "name": "Johann Karthaus"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "La zona de interés en Sala Augusta",
+          "doorTime": [
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Sala Augusta",
+            "screenCount": 7,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Palma de Mallorca",
+                  "addressRegion": "ES",
+                  "postalCode": "07004",
+                  "streetAddress": "Av. del Gran i General Consell, 2, Nord, 07004 Palma, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.576556,
+                  "longitude": 2.653472
+                }
+              }
+            ]
+          }
+        },
+        {
+          "@type": "ScreeningEvent",
+          "name": "La zona de interés en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T20:35:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Anatomía de una caída",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Anatomía de una caída",
+        "sameAs": "https://www.imdb.com/title/tt17009710/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=CK5tso4geFM&pp=ygUmYW5hdG9taWEgZGUgdW5hIGNhaWRhIHRyYWlsZXIgZXNwYcOxb2w%3D"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/anatomia_de_una_caida.jpg",
+        "duration": "T0M150S",
+        "description": "Una mujer es sospechosa del asesinato de su marido, y el hijo ciego de ambos se enfrenta a un dilema moral como único testigo.",
+        "director": {
+          "@type": "Person",
+          "name": "Justine Triet"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Sandra Hüller"
+          },
+          {
+            "@type": "Person",
+            "name": "Swann Arlaud"
+          },
+          {
+            "@type": "Person",
+            "name": "Milo Machado-Graner"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Anatomía de una caída en Ocimax Mahón Aficine",
+          "doorTime": [
+            "2024-04-20T20:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "Ocimax Mahón Aficine",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Mahón",
+                  "addressRegion": "ES",
+                  "postalCode": "07702",
+                  "streetAddress": "Carrer de Santiago Ramon y Cajal, 15, 07702 Maó, Illes Balears"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.885726870245136,
+                  "longitude": 4.263713833519889
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Bade Miyan Chote Miyan",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Bade Miyan Chote Miyan",
+        "sameAs": "https://www.imdb.com/title/tt18072316/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=IGzLHNPO4QI&pp=ygUnYmFkZSBtaXlhbiBjaG90ZSBtaXlhbiB0cmFpbGVyIGVzcGHDsW9s"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/bade_miyan_chote_miyan.jpg",
+        "duration": "T0M165S",
+        "description": "Con sus personalidades opuestas y sus métodos inconformistas, Bade Miyan y Chote Miyan tienen que superar sus diferencias y trabajar juntos para transportar a los delincuentes a la imparcialidad y preservar el día.",
+        "director": {
+          "@type": "Person",
+          "name": "Ali Abbas Zafar"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Prithviraj Sukumaran"
+          },
+          {
+            "@type": "Person",
+            "name": "Akshay Kumar"
+          },
+          {
+            "@type": "Person",
+            "name": "Tiger Shroff"
+          }
+        ],
+        "genre": "Acción",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Bade Miyan Chote Miyan en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T21:15:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de Maidaan",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "Maidaan",
+        "sameAs": "https://www.imdb.com/title/tt10869778/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=-CB4_-asx7w&pp=ygUYbWFpZGFhbiB0cmFpbGVyIGVzcGHDsW9s"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/maidaan.jpg",
+        "duration": "T0M175S",
+        "description": "Inspirado en el entrenador y entrenador de la selección nacional de fútbol de la India, Syed Abdul Rahim, considerado el arquitecto del fútbol indio.",
+        "director": {
+          "@type": "Person",
+          "name": "Amit Ravindernath"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "Ajay Devgn"
+          },
+          {
+            "@type": "Person",
+            "name": "Priyamani"
+          },
+          {
+            "@type": "Person",
+            "name": "Gajraj Rao"
+          }
+        ],
+        "genre": "Drama",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "Maidaan en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T21:30:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ScreeningEvent",
+      "name": "Proyecciones de SUGA: Agust D TOUR ‘D-DAY’ THE MOVIE",
+      "workPerformed": {
+        "@type": "Movie",
+        "name": "SUGA: Agust D TOUR ‘D-DAY’ THE MOVIE",
+        "sameAs": "https://www.imdb.com/title/tt31579728/?language=es-es",
+        "trailer": {
+          "@type": "VideoObject",
+          "contentUrl": "https://www.youtube.com/watch?v=Tbjipg7fXD0&pp=ygUzc3VnYSBhZ3VzdCBkIHRvdXIgJ2QtZGF5JyBvZmZpY2lhbCB0cmFpbGVyIGVzcGHDsW9s"
+        },
+        "image": "http://www.cinesinsularium.com/images/carteles/suga_agust_d_tour_d_day_the_movie.jpg",
+        "duration": "T0M84S",
+        "description": "Una película del concierto de Agust D, también conocido como SUGA de BTS. Sintoniza para revivir los momentos del concierto que abarcan su rico mundo musical y sus actuaciones, su energía explosiva y su actuación conjunta.",
+        "director": {
+          "@type": "Person",
+          "name": "Jun-Soo Park"
+        },
+        "actor": [
+          {
+            "@type": "Person",
+            "name": "SUGA"
+          },
+          {
+            "@type": "Person",
+            "name": "Jimin"
+          },
+          {
+            "@type": "Person",
+            "name": "Jungkook"
+          }
+        ],
+        "genre": "Musical",
+        "inLanguage": "es"
+      },
+      "subEvent": [
+        {
+          "@type": "ScreeningEvent",
+          "name": "SUGA: Agust D TOUR ‘D-DAY’ THE MOVIE en CINESA FESTIVAL PARK - IMAX",
+          "doorTime": [
+            "2024-04-20T16:00:00Z"
+          ],
+          "location": {
+            "@type": "MovieTheater",
+            "name": "CINESA FESTIVAL PARK - IMAX",
+            "screenCount": null,
+            "location": [
+              {
+                "@type": "Place",
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Inca",
+                  "addressRegion": "ES",
+                  "postalCode": "07141",
+                  "streetAddress": "Ma-13, Kilómetro 7.1, 07141 Inca, Balearic Islands"
+                }
+              },
+              {
+                "@type": "Place",
+                "geo": {
+                  "@type": "GeoCoordinates",
+                  "latitude": 39.633583,
+                  "longitude": 2.731833
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
