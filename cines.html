@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
+    <script type="module" src="js/custom.js"></script>
+    <title>Insularium</title>
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="hero_area">
+        <div class="hero_bg_box">
+            <div class="bg_img_box">
+                <img src="images/hero-bg.png" alt="background">
+            </div>
+        </div>
+        <!-- header -->
+        <header class="header_section">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                    <a class="navbar-brand" href="index.html">
+                        <span>
+                            Insularium
+                        </span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav  ">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="films.html">Peliculas</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="cines.html">Cines<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="team.html">Equipo</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search-bar-container">
+                        <input type="text" placeholder="Introduce el títuilo de la película">
+                        <button>
+                            <div class="lupa-img">
+                                <img src="images/lupa.png" alt="lupa">
+                            </div>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- CINEMAS SECTION -->
+
+        <section class="choice_section layout_padding">
+            <div class="cards1">
+                <div class="container container-hero-phone">
+                    <div class="card-slider-title-container related hero-fristone-tablet">
+                        <h1>CINES<br><br></h1>
+                         <!-- FILTROS -->
+                         <h4><strong> INTRODUCE LA ISLA SOBRE LA QUE DESEAS VER CINES:</strong></h4>
+                         <br>
+                         <div class="filtro-container">
+                             <select id="isla">
+                                 <option value="nocategoria">Sin filtro de islas</option>
+                                 <option value="accion">Mallorca</option>
+                                 <option value="comedia">Menorca</option>
+                                 <option value="drama">Ibiza</option>
+                             </select>
+                         </div>
+                         <br><br>
+                        <div class="title-card-slider">
+                            <h2 id="mallorca">Mallorca</h2>
+                        </div>
+                        <div class="cine-slider">
+                            <div class="row text-center">
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/AtresieteFan.jpg" alt="atresiete fan mallorca"
+                                            id="cinecart">
+                                        <p class="nomcine">Atresiete Fan</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/CineCiutat.jpg" alt="cine ciutat mallorca" id="cinecart">
+                                        <p class="nomcine">Cine Ciutat</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/Ocimax.jpg" alt="cines ocimax" id="cinecart">
+                                        <p class="nomcine">Ocimax Palma</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/Rivoli.jpg" alt="cines rívoli" id="cinecart">
+                                        <p class="nomcine">Rívoli</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/Augusta.jpg" alt="Sala Augusta" id="cinecart">
+                                        <p class="nomcine">Sala Augusta</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/FestivalPark.jpg" alt="Cinesa Festival Park"
+                                            id="cinecart">
+                                        <p class="nomcine">Festival Park</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/OcinePortoPi.jpg" alt="Ocine Premium Porto Pi"
+                                            id="cinecart">
+                                        <p class="nomcine">Ocine Porto Pi</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="cards1">
+                <div class="container container-hero-phone">
+                    <div class="card-slider-title-container related hero-fristone-tablet">
+                        <div class="title-card-slider">
+                            <h2 id="menorca">Menorca</h2>
+                        </div>
+                        <div class="cine-slider">
+                            <div class="row text-center">
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/OcimaxMahon.jpg" alt="Ocimax Mahón" id="cinecart">
+                                        <p class="nomcine">Ocimax Mahón</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/CinesCanalSalat.jpg" alt="Cines Canal Salat"
+                                            id="cinecart">
+                                        <p class="nomcine">Cine Canal Salat</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="cards1">
+                <div class="container container-hero-phone">
+                    <div class="card-slider-title-container related hero-fristone-tablet">
+                        <div class="title-card-slider">
+                            <h2 id="ibiza">Ibiza</h2>
+                        </div>
+                        <div class="cine-slider">
+                            <div class="row text-center">
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/CineRegio.jpg" alt="Cine Regio Ibiza" id="cinecart">
+                                        <p class="nomcine">Cine Regio</p>
+                                    </a>
+                                </div>
+                                <div class="col-md-5">
+                                    <a href="" class="cineSlider" id="cinepanel">
+                                        <img src="images/cines/IbizaAficine.jpeg" alt="Ibiza Aficine"
+                                            id="cinecart">
+                                        <p class="nomcine">Ibiza Aficine</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Footer section -->
+    <section class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By UIB
+            </p>
+        </div>
+    </section>
+</body>
+</body>
+</html>

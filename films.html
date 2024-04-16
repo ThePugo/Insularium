@@ -59,8 +59,11 @@
                                 <a class="nav-link" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link" href="films.html">Cartelera<span
+                                <a class="nav-link" href="films.html">Peliculas<span
                                         class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cines.html">Cines</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="team.html">Equipo</a>
@@ -69,14 +72,15 @@
                                 <a class="nav-link" href="contact.html">Contacto</a>
                             </li>
                         </ul>
-                    </div>
-                    <div class="search-bar-container">
-                        <input type="text" placeholder="Search...">
-                        <button>
-                            <div class="lupa-img">
-                                <img src="images/lupa.png" alt="lupa">
-                            </div>
-                        </button>
+                        <br>
+                        <div class="search-bar-container">
+                            <input type="text" placeholder="Introduce el títuilo de la película">
+                            <button>
+                                <div class="lupa-img">
+                                    <img src="images/lupa.png" alt="lupa">
+                                </div>
+                            </button>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -89,8 +93,32 @@
                 <div class="container container-hero-phone">
                     <div class="card-slider-title-container related hero-fristone-tablet">
                         <h1>CARTELERA<br><br></h1>
+                        <!-- FILTROS -->
+                        <h4><strong> INTRODUCE LOS FILTROS QUE DESEES:</strong></h4>
+                        <br>
+                        <div class="filtro-container">
+                            <select id="categoria">
+                                <option value="nocategoria">Sin filtro de categoría</option>
+                                <option value="accion">Acción</option>
+                                <option value="comedia">Comedia</option>
+                                <option value="drama">Drama</option>
+                            </select>
+                            <select id="cine">
+                                <option value="nocine">Sin filtro de cine</option>
+                                <option value="cine1">Cine 1</option>
+                                <option value="cine2">Cine 2</option>
+                                <option value="cine3">Cine 3</option>
+                            </select>
+                            <select id="autor">
+                                <option value="noautor">Sin filtro de autor</option>
+                                <option value="autor1">Autor 1</option>
+                                <option value="autor2">Autor 2</option>
+                                <option value="autor3">Autor 3</option>
+                            </select>
+                        </div>
+                        <br><br>
                         <div class="title-card-slider">
-                            <h2 id = "comedia">Comedia</h2>
+                            <h2 id="comedia">Comedia</h2>
                         </div>
                         <div class="films-slider">
                             <div class="row text-center">
@@ -117,13 +145,13 @@
                                 <div class="col-md-2">
                                     <a href="" class="filmSlider" id="pelipanel">
                                         <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/sequedan.jpg" alt="los que se quedan" id="pelicart">                                        
+                                        <img src="images/carteles/sequedan.jpg" alt="los que se quedan" id="pelicart">
                                     </a>
                                 </div>
                                 <div class="col-md-2">
                                     <a href="" class="filmSlider" id="pelipanel">
                                         <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/comedia/budapest.jpg" alt="budapest" id="pelicart">                                     
+                                        <img src="images/comedia/budapest.jpg" alt="budapest" id="pelicart">
                                     </a>
                                 </div>
                                 <div class="col-md-2">
@@ -160,7 +188,7 @@
                 <div class="container container-hero-phone">
                     <div class="card-slider-title-container related hero-fristone-tablet">
                         <div class="title-card-slider">
-                            <h2 id = "terror">Terror</h2>
+                            <h2 id="terror">Terror</h2>
                         </div>
                         <div class="films-slider">
                             <div class="row text-center">
@@ -191,7 +219,7 @@
                 <div class="container container-hero-phone">
                     <div class="card-slider-title-container related hero-fristone-tablet">
                         <div class="title-card-slider">
-                            <h2 id = "thriller">Thriller</h2>
+                            <h2 id="thriller">Thriller</h2>
                         </div>
                         <div class="films-slider">
                             <div class="row text-center">
@@ -261,7 +289,7 @@
                 <div class="container container-hero-phone">
                     <div class="card-slider-title-container related hero-fristone-tablet">
                         <div class="title-card-slider">
-                            <h2 id = "drama">Drama</h2>
+                            <h2 id="drama">Drama</h2>
                         </div>
                         <div class="films-slider">
                             <div class="row text-center">
@@ -325,7 +353,7 @@
                 <div class="container container-hero-phone">
                     <div class="card-slider-title-container related hero-fristone-tablet">
                         <div class="title-card-slider">
-                            <h2 id = "accion">Acción / Aventuras</h2>
+                            <h2 id="accion">Acción / Aventuras</h2>
                         </div>
                         <div class="films-slider">
                             <div class="row text-center">
@@ -344,7 +372,7 @@
                                 <div class="col-md-2">
                                     <a href="" class="filmSlider" id="pelipanel">
                                         <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/aquaman.jpg" alt="aquaman 2" id = "pelicart">
+                                        <img src="images/carteles/aquaman.jpg" alt="aquaman 2" id="pelicart">
                                     </a>
                                 </div>
                                 <div class="col-md-2">
@@ -362,7 +390,7 @@
                 <div class="container container-hero-phone">
                     <div class="card-slider-title-container related hero-fristone-tablet">
                         <div class="title-card-slider">
-                            <h2 id = "romance">Romance</h2>
+                            <h2 id="romance">Romance</h2>
                         </div>
                         <div class="films-slider">
                             <div class="row text-center">
@@ -389,7 +417,7 @@
                 <div class="container container-hero-phone">
                     <div class="card-slider-title-container related hero-fristone-tablet">
                         <div class="title-card-slider">
-                            <h2 id = "animacion">Animación</h2>
+                            <h2 id="animacion">Animación</h2>
                         </div>
                         <div class="films-slider">
                             <div class="row text-center">
@@ -426,4 +454,15 @@
             </div>
         </section>
     </div>
+    <!-- Footer section -->
+    <section class="footer_section">
+        <div class="container">
+            <p>
+                &copy; <span id="displayYear"></span> All Rights Reserved By UIB
+            </p>
+        </div>
+    </section>
 </body>
+</body>
+
+</html>
