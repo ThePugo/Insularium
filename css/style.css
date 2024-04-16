@@ -1209,6 +1209,7 @@ h4 {
   transition: transform 1s, box-shadow 1s; 
   transform: scale(1); 
   box-shadow: none; 
+  border-radius: 20px;
 }
 
 .filmSlider:hover {
@@ -1229,6 +1230,7 @@ h4 {
   height: 100%; /* Permite que la altura se ajuste automáticamente según la proporción de aspecto */
   object-fit: cover;
   background-size: cover;
+  border-radius: 20px;
 }
 
 .see-all-link {
@@ -1751,3 +1753,100 @@ background-color: black;
 #pelicart:not(:hover) {
   opacity: 1;
 }
+
+.filtro-container {
+  display: flex;
+}
+
+.filtro-container select {
+  margin-right: 10px;
+  margin-right: 10px;
+  background-color: #555;; 
+  color: #fff; 
+  border: none; 
+  padding: 5px; 
+  border-radius: 5px; 
+}
+
+#cinepanel{
+  background-color: black;
+}
+
+.cineSlider {
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  background-color: transparent;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  transition: transform 1s, box-shadow 1s; 
+  transform: scale(1); 
+  box-shadow: none; 
+  border-radius: 20px;
+}
+
+.cineSlider img {
+  max-width: 600px; 
+  max-height: 300px;
+  width: 400px;
+  height: 100%; 
+  object-fit: cover;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.cineSlider h1 {
+  font-weight: bold;
+}
+
+.cineSlider:hover {
+  transition: all 1s;
+  transform: scale(1.1); 
+  box-shadow: 0px 0px 50px rgba(0,0,0,1);
+  height: 100%;
+  object-fit: cover;
+  display: inline-block;
+  background-color: transparent;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+}
+
+.nomcine{
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 10px;
+  top: 0;
+  left: 0;
+  text-align: center; 
+  margin: auto;
+  color:#fff;
+  font-size:50px;
+  opacity: 1; 
+}
+
+#cinecart{
+  opacity: 0.3;
+  transition: opacity 0.3s ease; 
+}
+
+#cinecart:hover {
+  opacity:1;
+  transition: opacity 0.3s ease; 
+}
+
+.cine-slider .row {
+  text-align: center;
+}
+
+.cine-slider .col-md-5 {
+  margin-right:0;
+  margin-top: 30px;
+}
+
+.cine-slider .col-md-5:last-child {
+  margin-right: 0; 
+}
+
+
