@@ -96,7 +96,7 @@ async function loadDestacadas() {
     }
 }
 
-// Función para obtener películas aleatorias
+//función para obtener películas aleatorias
 function getRandomMovies(movies, count) {
     let shuffled = movies.sort(() => Math.random() - 0.5).slice(0, count);
     return shuffled;
