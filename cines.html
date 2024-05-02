@@ -13,6 +13,7 @@
     <meta name="author" content="" />
     <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
     <script type="module" src="js/custom.js"></script>
+    <script src="js/loadCinemas.js"></script>
     <title>Insularium</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -87,71 +88,29 @@
         <!-- CINEMAS SECTION -->
 
         <section class="choice_section layout_padding">
-            <div class="cards1">
-                <div class="container container-hero-phone">
-                    <div class="card-slider-title-container related hero-fristone-tablet">
-                        <h1>CINES<br><br></h1>
-                         <!-- FILTROS -->
-                         <h4><strong> INTRODUCE LA ISLA SOBRE LA QUE DESEAS VER CINES:</strong></h4>
-                         <br>
-                         <div class="filtro-container">
-                             <select id="isla">
-                                 <option value="nocategoria">Sin filtro de islas</option>
-                                 <option value="accion">Mallorca</option>
-                                 <option value="comedia">Menorca</option>
-                                 <option value="drama">Ibiza</option>
-                             </select>
-                         </div>
-                         <br><br>
+            <div class="container container-hero-phone">
+                <div class="card-slider-title-container related hero-fristone-tablet">
+                    <h1>CINES<br><br></h1>
+                    <!-- FILTROS -->
+                    <h4><strong> INTRODUCE LA ISLA SOBRE LA QUE DESEAS VER CINES:</strong></h4>
+                    <br>
+                    <div class="filtro-container">
+                        <select id="isla">
+                            <option value="nocategoria" selected>Sin filtro de islas</option>
+                            <option value="mallorca">Mallorca</option>
+                            <option value="menorca">Menorca</option>
+                            <option value="ibiza">Ibiza</option>
+                        </select>
+                    </div>
+                    <div class="cards1">
+                        <br><br>
                         <div class="title-card-slider">
                             <h2 id="mallorca">Mallorca</h2>
                         </div>
-                        <div class="cine-slider">
-                            <div class="row text-center">
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/AtresieteFan.jpg" alt="artesiete fan mallorca"
-                                            class="cinecart">
-                                        <p class="nomcine">Artesiete Fan</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/CineCiutat.jpg" alt="cine ciutat mallorca" class="cinecart">
-                                        <p class="nomcine">Cine Ciutat</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/Ocimax.jpg" alt="cines ocimax" class="cinecart">
-                                        <p class="nomcine">Ocimax Palma</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/Rivoli.jpg" alt="cines rívoli" class="cinecart">
-                                        <p class="nomcine">Rívoli</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/Augusta.jpg" alt="Sala Augusta" class="cinecart">
-                                        <p class="nomcine">Sala Augusta</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/FestivalPark.jpg" alt="Cinesa Festival Park"
-                                        class="cinecart">
-                                        <p class="nomcine">Festival Park</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/OcinePortoPi.jpg" alt="Ocine Premium Porto Pi"
-                                        class="cinecart">
-                                        <p class="nomcine">Ocine Porto Pi</p>
-                                    </a>
+                        <div id="mallorca">
+                            <div class="cine-slider">
+                                <div class="row text-center">
+
                                 </div>
                             </div>
                         </div>
@@ -165,20 +124,10 @@
                         <div class="title-card-slider">
                             <h2 id="menorca">Menorca</h2>
                         </div>
-                        <div class="cine-slider">
-                            <div class="row text-center">
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/OcimaxMahon.jpg" alt="Ocimax Mahón" class="cinecart">
-                                        <p class="nomcine">Ocimax Mahón</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/CinesCanalSalat.jpg" alt="Cines Canal Salat"
-                                        class="cinecart">
-                                        <p class="nomcine">Cine Canal Salat</p>
-                                    </a>
+                        <div id="menorca">
+                            <div class="cine-slider">
+                                <div class="row text-center">
+
                                 </div>
                             </div>
                         </div>
@@ -192,20 +141,9 @@
                         <div class="title-card-slider">
                             <h2 id="ibiza">Ibiza</h2>
                         </div>
-                        <div class="cine-slider">
-                            <div class="row text-center">
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/CineRegio.jpg" alt="Cine Regio Ibiza" class="cinecart">
-                                        <p class="nomcine">Cine Regio</p>
-                                    </a>
-                                </div>
-                                <div class="col-md-5">
-                                    <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                                        <img src="images/cines/IbizaAficine.jpeg" alt="Ibiza Aficine"
-                                        class="cinecart">
-                                        <p class="nomcine">Ibiza Aficine</p>
-                                    </a>
+                        <div id="ibiza">
+                            <div class="cine-slider">
+                                <div class="row text-center">
                                 </div>
                             </div>
                         </div>
@@ -224,4 +162,5 @@
     </section>
 </body>
 </body>
+
 </html>
