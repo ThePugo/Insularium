@@ -30,6 +30,8 @@ function displayCineDetails(data, cine, cineName) {
     document.getElementById('cinema-name').innerText = cine.location.name;
     document.getElementById('cinema-screens').innerText = cine.location.screenCount !== null ? cine.location.screenCount + " pantallas" : "No se especifica";
     document.getElementById('cinema-address').innerText = cine.location.location[0].address.streetAddress;
+    var link = document.getElementById('cinema-link');
+    link.href = cine.location.sameAs;
 
     if (cine.location.location[1].geo) {
         placeMarker(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude, cine.location.name);

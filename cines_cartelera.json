@@ -36,7 +36,27 @@
           }
         ],
         "genre": "Ciencia Ficción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.3",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film879236.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "43%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/ghostbusters_frozen_empire"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.4",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt21235248/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -50,6 +70,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -86,6 +107,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -119,6 +141,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -155,6 +178,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -189,6 +213,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -222,6 +247,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -255,6 +281,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -288,6 +315,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -321,6 +349,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -379,7 +408,27 @@
           }
         ],
         "genre": "Acción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.2",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film975245.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "81%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/civil_war_2024"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.6",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt17279496/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -394,6 +443,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -452,7 +502,27 @@
           }
         ],
         "genre": "Aventuras",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.9",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film180929.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "92%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/dune_part_two"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "8.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt15239678/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -466,6 +536,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -501,6 +572,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -534,6 +606,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -569,6 +642,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -602,6 +676,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -635,6 +710,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -693,7 +769,27 @@
           }
         ],
         "genre": "Acción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.5",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film958361.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "83%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/the_fall_guy_2024"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.3",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt1684562/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -707,6 +803,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -765,7 +862,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.7",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film565091.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/mother_teresa_and_me"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.6",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt11228826/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -780,6 +897,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -838,7 +956,27 @@
           }
         ],
         "genre": "Aventuras",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.4",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film662088.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/jaguar_my_love"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt16740144"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -852,6 +990,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -887,6 +1026,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -921,6 +1061,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -956,6 +1097,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -990,6 +1132,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -1048,7 +1191,27 @@
           }
         ],
         "genre": "Acción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4.4",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film869331.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "8%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/freelance_2023"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.5",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt15744298/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -1063,6 +1226,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1098,6 +1262,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1132,6 +1297,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -1165,6 +1331,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -1223,7 +1390,27 @@
           }
         ],
         "genre": "Acción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.8",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film941678.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "54%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/godzilla_x_kong_the_new_empire"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.5",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt14539740"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -1236,6 +1423,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1270,6 +1458,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1303,6 +1492,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -1339,6 +1529,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -1375,6 +1566,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -1409,6 +1601,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -1442,6 +1635,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -1476,6 +1670,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -1511,6 +1706,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -1561,7 +1757,27 @@
           }
         ],
         "genre": "Animación",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film495285.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/johnny_puff_secret_mission"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.3",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt24855120"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -1575,6 +1791,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1609,6 +1826,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1667,7 +1885,27 @@
           }
         ],
         "genre": "Animación",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.8",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film187608.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "72%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/kung_fu_panda_4"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.3",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt21692408"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -1682,6 +1920,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1718,6 +1957,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1754,6 +1994,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -1788,6 +2029,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -1821,6 +2063,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -1855,6 +2098,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -1889,6 +2133,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -1922,6 +2167,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -1980,7 +2226,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3.3",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film307067.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/la_familia_beneton"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt29138109/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -1995,6 +2261,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2030,6 +2297,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2063,6 +2331,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -2099,6 +2368,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2134,6 +2404,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2168,6 +2439,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -2226,7 +2498,27 @@
           }
         ],
         "genre": "Thriller",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.4",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film971147.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "81%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/the_first_omen"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.8",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt5672290/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -2240,6 +2532,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2276,6 +2569,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2312,6 +2606,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -2347,6 +2642,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2381,6 +2677,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2415,6 +2712,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -2448,6 +2746,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -2481,6 +2780,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -2515,6 +2815,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -2573,7 +2874,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.3",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film589995.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/matusalen"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt22085262/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -2586,6 +2907,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2619,6 +2941,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2652,6 +2975,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2685,6 +3009,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2718,6 +3043,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -2776,7 +3102,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.0",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film725556.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/menudas_piezas"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt28375638/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -2790,6 +3136,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2827,6 +3174,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2864,6 +3212,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2901,6 +3250,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2937,6 +3287,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -2972,6 +3323,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -3006,6 +3358,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -3039,6 +3392,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -3074,6 +3428,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -3132,7 +3487,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.9",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film500773.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "89%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/challengers_2024"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.8",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt16426418/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3146,6 +3521,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -3204,7 +3580,27 @@
           }
         ],
         "genre": "Animación",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.7",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film603446.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "97%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/spy_x_family_code_white"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.4",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt26684398/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3218,6 +3614,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -3251,6 +3648,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -3309,7 +3707,27 @@
           }
         ],
         "genre": "Terror",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film984900.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "3.6",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt23785676"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3323,6 +3741,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -3381,7 +3800,27 @@
           }
         ],
         "genre": "Ciencia Ficción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.1",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film287517.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "84%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/the_beast_2023"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.8",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt14407336/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3394,6 +3833,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3452,7 +3892,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.5",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film275779.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "93%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/puan"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.8",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt13866866/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3465,6 +3925,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3498,6 +3959,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -3556,7 +4018,27 @@
           }
         ],
         "genre": "Romance",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.6",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film391567.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "94%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/love_lies_bleeding_2024"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.8",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt19637052/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3570,6 +4052,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3605,6 +4088,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -3642,6 +4126,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -3676,6 +4161,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -3734,7 +4220,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.9",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film148943.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "100%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/animalia"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.9",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt17006040/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3747,6 +4253,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3805,7 +4312,27 @@
           }
         ],
         "genre": "Thriller",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.9",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film657533.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.9",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt15289660/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3818,6 +4345,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3851,6 +4379,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -3909,7 +4438,27 @@
           }
         ],
         "genre": "Aventuras",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.4",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film594164.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "100%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/pajaros"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.6",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt14651070/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -3923,6 +4472,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3956,6 +4506,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4014,7 +4565,27 @@
           }
         ],
         "genre": "Acción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.3",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film631601.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "89%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/monkey_man"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.0",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt9214772/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4030,6 +4601,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4069,6 +4641,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -4103,6 +4676,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -4137,6 +4711,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -4171,6 +4746,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -4229,7 +4805,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.3",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film445433.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "80%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/wicked_little_letters"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.0",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt20234774/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4243,6 +4839,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4278,6 +4875,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4336,7 +4934,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.8",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film242695.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "90%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/one_life"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.5",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt13097932/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4349,6 +4967,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4382,6 +5001,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4415,6 +5035,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -4449,6 +5070,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -4507,7 +5129,27 @@
           }
         ],
         "genre": "Terror",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4.4",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film989251.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "24%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/imaginary"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt26658104/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4521,6 +5163,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4579,7 +5222,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.4",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film294474.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "93%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/oppenheimer_2023"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "8.3",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt15398776/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4592,6 +5255,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4650,7 +5314,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.2",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film116015.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/sisterhood_2024"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.2",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt13866710/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4663,6 +5347,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4721,7 +5406,27 @@
           }
         ],
         "genre": "Documental",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.9",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film793253.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "8.6",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt31064117/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4735,6 +5440,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4793,7 +5499,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.0",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film138585.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/on_the_wandering_paths"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt15441522/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4806,6 +5532,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4864,7 +5591,27 @@
           }
         ],
         "genre": "Comedia",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "5.7",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film857643.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/les_choses_simples"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.4",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt25971180/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4877,6 +5624,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4935,7 +5683,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "6.7",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film655530.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "93%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/the_zone_of_interest"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.5",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt7160372/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -4948,6 +5716,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4981,6 +5750,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -5039,7 +5809,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.2",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film108208.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "96%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/anatomy_of_a_fall"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.7",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt17009710/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -5052,6 +5842,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -5110,7 +5901,27 @@
           }
         ],
         "genre": "Acción",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film413101.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "20%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/bade_miyan_chote_miyan_2024"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt18072316/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -5123,6 +5934,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -5181,7 +5993,27 @@
           }
         ],
         "genre": "Drama",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film838667.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "71%",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/maidaan"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "8.5",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt10869778/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -5194,6 +6026,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -5252,7 +6085,27 @@
           }
         ],
         "genre": "Musical",
-        "inLanguage": "es"
+        "inLanguage": "es",
+        "aggregateRating": [
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "7.7",
+            "image":"http://www.cinesinsularium.com/images/filmaffinity.png",
+            "sameAs": "https://www.filmaffinity.com/es/film260767.html"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "--",
+            "image":"http://www.cinesinsularium.com/images/rottentomatoes.png",
+            "sameAs": "https://www.rottentomatoes.com/m/suga_agust_d_tour_d_day_the_movie"
+          },
+          {
+            "@type": "AggregateRating",
+            "ratingValue": "8.3",
+            "image":"http://www.cinesinsularium.com/images/imdb.png",
+            "sameAs": "https://www.imdb.com/title/tt31579728/"
+          }
+        ]
       },
       "subEvent": [
         {
@@ -5265,6 +6118,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
