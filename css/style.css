@@ -1800,6 +1800,8 @@ background-color: black;
   object-fit: cover;
   background-size: cover;
   border-radius: 20px;
+  opacity: 0.3;
+  transition: opacity 0.3s ease; 
 }
 
 .cineSlider h1 {
@@ -1819,6 +1821,11 @@ background-color: black;
   text-align: center;
 }
 
+.cineSlider:hover img {
+  opacity: 1;
+  transition: opacity 0.3s ease; 
+}
+
 .nomcine{
   position: absolute;
   padding-left: 10px;
@@ -1832,15 +1839,6 @@ background-color: black;
   opacity: 1; 
 }
 
-#cinecart{
-  opacity: 0.3;
-  transition: opacity 0.3s ease; 
-}
-
-#cinecart:hover {
-  opacity:1;
-  transition: opacity 0.3s ease; 
-}
 
 .cine-slider .row {
   text-align: center;
@@ -1869,4 +1867,59 @@ background-color: black;
 .choice_section .title-card-slider h2 {
   text-align: center;
   margin-bottom: 20px;
+}
+
+.cinema-movie {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  width: 180px;
+}
+
+.cinema-movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cinema-movie:hover .info-icon {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cinema-movie:hover .filmimage {
+  transition: all 1s;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out;
+  box-shadow: 0px 0px 50px rgba(0,0,0,1);
+}
+
+.info-icon {
+  position: relative;
+  top: 25px;
+  left: -60px;
+  max-width: 25px;
+  max-height: 25px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.cinema-movie div {
+  margin-top: 5px;
+}
+
+.cinema-movie-time {
+  border: 1px solid #ccc;
+  padding: 2px 5px;
+  margin-top: 3px;
+  border-radius: 5px;
+  font-size: 0.8em;
+  display: none;
+}
+
+.cinema-movie:hover .cinema-movie-time {
+  display: block;
 }

@@ -13,6 +13,7 @@
     <meta name="author" content="" />
     <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
     <script type="module" src="js/custom.js"></script>
+    <script src="js/loadCinemaDetails.js"></script>
     <title>Insularium</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -90,29 +91,43 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <h3>Nombre del Cine</h3>
-                    <p><strong>Número de Pantallas:</strong> 8 pantallas</p>
+                    <h3 id="cinema-name"></h3>
+                    <p><strong>Número de Pantallas:</strong> <span id="cinema-screens"></span></p>
                     <p><strong>Películas que Proyecta:</strong></p>
-                    <ul>
-                        <li><strong>Película 1:</strong> 14:00, 16:00, 18:00</li>
-                        <li><strong>Película 2:</strong> 15:00, 17:00, 19:00</li>
-                        <li><strong>Película 3:</strong> 12:00, 14:30, 17:00</li>
-                    </ul>
-                    <p><strong>Dirección:</strong> Calle Falsa 123, Ciudad, País</p>
-                    <h4>Ubicación en el Mapa</h4>
-                    <iframe
-                        width="600"
-                        height="450"
-                        style="border:0"
-                        loading="lazy"
-                        allowfullscreen
-                        referrerpolicy="no-referrer-when-downgrade"
-                        src="https://www.google.com/maps/embed/v1/place?key=API_KEY&q=latitude,longitude">
-                    </iframe>
+                    <ul id="cinema-movies"></ul>
+                    <p><strong>Dirección:</strong> <span id="cinema-address"></span></p>
+                    <div class="map">
+                        <div class="title-card-slider">
+                            <h2>Ubicación en el mapa</h2>
+                        </div>
+                        <div id="map"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB8Uq190AxTB1JvsUMVioRMYM2_W_UbBHo&callback=initMap">
+        </script>
+    <script>
+        var map; // Variable global para mantener el mapa
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 15
+            });
+        }
+
+        function placeMarker(latitude, longitude, nom) {
+            var position = new google.maps.LatLng(latitude, longitude);
+            var marker = new google.maps.Marker({
+                position: position,
+                map: map,
+                title: nom
+            });
+            map.setCenter(position);
+        }
+    </script>
     <!-- Footer section -->
     <section class="footer_section">
         <div class="container">
@@ -123,4 +138,5 @@
     </section>
 </body>
 </body>
+
 </html>

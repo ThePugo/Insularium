@@ -276,7 +276,9 @@
         center: { lat: 39.4696, lng: 3.1483 }
       });
 
-      //carga del archivo JSON con la geolocalización de los cines
+      const seenCinemas = new Set(); // Almacenar los nombres de los cines que ya tienen marcadores
+
+      // Carga del archivo JSON con la geolocalización de los cines
       fetch('cines_cartelera.json')
         .then(response => response.json())
         .then(data => {
@@ -284,7 +286,8 @@
             event.subEvent.forEach(screeningEvent => {
               if (screeningEvent.location && screeningEvent.location.location) {
                 screeningEvent.location.location.forEach(location => {
-                  if (location.geo) {
+                  if (location.geo && !seenCinemas.has(screeningEvent.location.name)) {
+                    seenCinemas.add(screeningEvent.location.name); // Añadir el nombre del cine al conjunto
                     var marker = new google.maps.Marker({
                       position: new google.maps.LatLng(location.geo.latitude, location.geo.longitude),
                       map: map,

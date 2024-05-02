@@ -66,8 +66,8 @@ function loadCinemas(data) {
                 const cinemaDiv = document.createElement('div');
                 cinemaDiv.className = 'col-md-5';
                 cinemaDiv.innerHTML = `
-                <a href="cinemadetails.html" class="cineSlider" id="cinepanel">
-                    <img src="${screeningEvent.location.photo}" alt="${screeningEvent.location.name}" class="cinecart">
+                <a href="cinemadetails.html?cine=${screeningEvent.location.name}" class="cineSlider" id="cinepanel">
+                    <img src="${screeningEvent.location.photo}" alt="${screeningEvent.location.name}">
                     <p class="nomcine">${screeningEvent.location.name}</p>
                 </a>
                 `;

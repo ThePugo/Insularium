@@ -79,7 +79,6 @@ async function load3RandomMovies() {
 async function loadDestacadas() {
     try {
         const comedyMovies = allMovies.filter(movie => movie.genre === 'Comedia');
-        console.log(allMovies.length);
         const dramaMovies = allMovies.filter(movie => movie.genre === 'Drama');
 
         const randomComedyMovies = getRandomMovies(comedyMovies, 5);
