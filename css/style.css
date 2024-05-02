@@ -1878,6 +1878,11 @@ background-color: black;
   width: 180px;
 }
 
+#cinema-name:hover {
+  transition: all 1s;
+  color: red;
+}
+
 .cinema-movie img {
   width: 100%;
   height: auto;

@@ -50,6 +50,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -86,6 +87,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -119,6 +121,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -155,6 +158,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -189,6 +193,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -222,6 +227,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -255,6 +261,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -288,6 +295,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -321,6 +329,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -394,6 +403,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -466,6 +476,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -501,6 +512,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -534,6 +546,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -569,6 +582,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -602,6 +616,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -635,6 +650,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -707,6 +723,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -780,6 +797,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -852,6 +870,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -887,6 +906,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -921,6 +941,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -956,6 +977,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -990,6 +1012,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -1063,6 +1086,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1098,6 +1122,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1132,6 +1157,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -1165,6 +1191,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -1236,6 +1263,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1270,6 +1298,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1303,6 +1332,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -1339,6 +1369,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -1375,6 +1406,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -1409,6 +1441,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -1442,6 +1475,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -1476,6 +1510,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -1511,6 +1546,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -1575,6 +1611,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1609,6 +1646,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1682,6 +1720,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -1718,6 +1757,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -1754,6 +1794,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -1788,6 +1829,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -1821,6 +1863,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -1855,6 +1898,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -1889,6 +1933,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -1922,6 +1967,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -1995,6 +2041,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2030,6 +2077,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2063,6 +2111,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -2099,6 +2148,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2134,6 +2184,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2168,6 +2219,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -2240,6 +2292,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2276,6 +2329,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2312,6 +2366,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -2347,6 +2402,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2381,6 +2437,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2415,6 +2472,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -2448,6 +2506,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -2481,6 +2540,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -2515,6 +2575,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -2586,6 +2647,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2619,6 +2681,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2652,6 +2715,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2685,6 +2749,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2718,6 +2783,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -2790,6 +2856,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -2827,6 +2894,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -2864,6 +2932,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -2901,6 +2970,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -2937,6 +3007,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -2972,6 +3043,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -3006,6 +3078,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -3039,6 +3112,7 @@
             "@type": "MovieTheater",
             "name": "Cine Regio Ibiza",
             "photo": "http://www.cinesinsularium.com/images/cines/CineRegio.jpg",
+            "sameAs": "https://www.reservaentradas.com/cine/islas-baleares/cineregio",
             "screenCount": null,
             "location": [
               {
@@ -3074,6 +3148,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -3146,6 +3221,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -3218,6 +3294,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -3251,6 +3328,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -3323,6 +3401,7 @@
             "@type": "MovieTheater",
             "name": "Artesiete Fan",
             "photo": "http://www.cinesinsularium.com/images/cines/ArtesieteFan.jpg",
+            "sameAs": "https://artesiete.es/Cine/4/Artesiete-Fan",
             "screenCount": 8,
             "location": [
               {
@@ -3394,6 +3473,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3465,6 +3545,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3498,6 +3579,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -3570,6 +3652,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3605,6 +3688,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -3642,6 +3726,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -3676,6 +3761,7 @@
             "@type": "MovieTheater",
             "name": "Cines Canal Salat",
             "photo": "http://www.cinesinsularium.com/images/cines/CinesCanalSalat.jpg",
+            "sameAs": "https://www.sensacine.com/cines/cine/E0782/",
             "screenCount": null,
             "location": [
               {
@@ -3747,6 +3833,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3818,6 +3905,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3851,6 +3939,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -3923,6 +4012,7 @@
             "@type": "MovieTheater",
             "name": "CineCiutat",
             "photo": "http://www.cinesinsularium.com/images/cines/CineCiutat.jpg",
+            "sameAs": "https://cineciutat.org/es",
             "screenCount": 4,
             "location": [
               {
@@ -3956,6 +4046,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4030,6 +4121,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4069,6 +4161,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -4103,6 +4196,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -4137,6 +4231,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -4171,6 +4266,7 @@
             "@type": "MovieTheater",
             "name": "Eivissa Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/IbizaAficine.jpeg",
+            "sameAs": "https://www.aficine.com/cine/ibiza/",
             "screenCount": null,
             "location": [
               {
@@ -4243,6 +4339,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4278,6 +4375,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4349,6 +4447,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4382,6 +4481,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4415,6 +4515,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -4449,6 +4550,7 @@
             "@type": "MovieTheater",
             "name": "OCINE PREMIUM Porto Pi",
             "photo": "http://www.cinesinsularium.com/images/cines/OcinePortoPi.jpg",
+            "sameAs": "https://www.ocinepremiumportopi.es/",
             "screenCount": 7,
             "location": [
               {
@@ -4521,6 +4623,7 @@
             "@type": "MovieTheater",
             "name": "Cines Ocimax",
             "photo": "http://www.cinesinsularium.com/images/cines/Ocimax.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxpalma/",
             "screenCount": 15,
             "location": [
               {
@@ -4592,6 +4695,7 @@
             "@type": "MovieTheater",
             "name": "Multicines Rívoli",
             "photo": "http://www.cinesinsularium.com/images/cines/Rivoli.jpg",
+            "sameAs": "https://www.aficine.com/cine/rivoli/",
             "screenCount": 3,
             "location": [
               {
@@ -4663,6 +4767,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4735,6 +4840,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4806,6 +4912,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4877,6 +4984,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4948,6 +5056,7 @@
             "@type": "MovieTheater",
             "name": "Sala Augusta",
             "photo": "http://www.cinesinsularium.com/images/cines/Augusta.jpg",
+            "sameAs": "https://www.aficine.com/cine/augusta/",
             "screenCount": 7,
             "location": [
               {
@@ -4981,6 +5090,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -5052,6 +5162,7 @@
             "@type": "MovieTheater",
             "name": "Ocimax Mahón Aficine",
             "photo": "http://www.cinesinsularium.com/images/cines/OcimaxMahon.jpg",
+            "sameAs": "https://www.aficine.com/cine/ocimaxmahon/",
             "screenCount": null,
             "location": [
               {
@@ -5123,6 +5234,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -5194,6 +5306,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
@@ -5265,6 +5378,7 @@
             "@type": "MovieTheater",
             "name": "CINESA FESTIVAL PARK - IMAX",
             "photo": "http://www.cinesinsularium.com/images/cines/FestivalPark.jpg",
+            "sameAs": "https://www.cinesa.es/Cines/Festival-Park/",
             "screenCount": null,
             "location": [
               {
