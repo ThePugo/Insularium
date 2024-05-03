@@ -1,0 +1,336 @@
+@media (max-width: 1200px) {
+
+  /*ICONOS PELÍCULAS*/
+  .filmSlider {
+    scale: 85%;
+  }
+  /*ICONOS CINES*/
+  .cineSlider {
+    scale: 85%;
+  }
+  .right-section .main-form form{
+    max-width: 300px;
+    }
+  .right-section {
+      max-width: 300px;
+    }
+}
+
+@media (max-width: 1120px) {
+  #contenedorAutor img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    min-width: 30%;
+  }
+
+  .row .col-md-2 {
+    max-width: 150px;
+  }
+  /*ICONOS PELÍCULAS*/
+  .filmSlider {
+    scale: 79%;
+  }
+  /*ICONOS CINES*/
+  .cineSlider {
+    scale: 79%;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .carousel-inner .carousel-item h1 {
+    font-size: 60px;
+  }
+
+  #descAutor {
+    font-size: 15px;
+  }
+
+  .hero_area {
+    min-height: auto;
+  }
+
+  .hero_area {
+    background: linear-gradient(130deg, #131313, #434343);
+  }
+
+  .hero_area .hero_bg_box {
+    display: none;
+  }
+
+  .slider_section {
+    padding: 45px 0 75px 0;
+  }
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+    align-items: center;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  /*ICONOS CINES*/
+  .cineSlider {
+    scale: 60%;
+  }
+
+
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  /* Contacto */
+  .right-section {
+    max-width: 120px;
+  }
+
+  .main-form .submit-button {
+    max-width: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item h1 {
+    font-size: 30px;
+  }
+
+  .carousel-inner .carousel-item h4 {
+    font-size: 15px;
+  }
+
+  .carousel-inner .carousel-item h2 {
+    font-size: 20px;
+  }
+
+  .carousel-inner .carousel-item h3 {
+    font-size: 15px;
+  }
+
+  .carousel-inner .carousel-item a {
+    font-size: 20px;
+  }
+
+  .carousel-inner .carousel-item .img-box {
+    resize: 20%;
+  }
+
+  .about_section .img-box {
+    margin-bottom: 45px;
+  }
+
+  #descAutor {
+    font-size: 20px;
+  }
+
+  .filtro-container {
+    flex-direction: column;
+  }
+
+  .filtro-container select {
+    margin-top: 5%;
+  }
+
+  /*contacto*/
+
+.right-section .main-form form{
+  max-width: 300px;
+  }
+  
+  .left-section h1{
+  font-size: 70px;
+  position:absolute;
+  margin-right: 180px;
+  line-height: 1;
+  margin-top: 40px;
+  }
+  
+  .left-section img{
+    max-height: 210px;
+    max-width: 420px;
+  }
+  
+  .left-section {
+    max-height: 200px;
+  }
+  
+  .contact-container {
+    flex-direction: column;  
+    align-items: center;
+  }
+  
+  .right-section {
+    margin-top: 30px;
+    margin-left: 0; 
+  }
+
+}
+
+@media (max-width: 680px) {
+.contact-container {
+  max-width: 530px
+};
+
+.left-section img{
+  margin-left: 400px;
+}
+
+}
+
+@media (max-width: 767px) {
+.row .col-md-5 {
+  max-width: 225px;
+  padding-left: 0;
+}
+
+.cineSlider {
+  scale: 50%;
+  padding-left: 0;
+}
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+  .client_section .client_container {
+    width: 100%;
+  }
+
+  .client_section .box {
+    margin: 0;
+  }
+
+  .owl-nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+  }
+
+  .client_section .owl-carousel .owl-nav .owl-prev,
+  .client_section .owl-carousel .owl-nav .owl-next {
+    position: unset;
+    margin: 0 2.5px;
+  }
+
+  .filmSlider {
+    scale: 70%;
+  }
+  .cineSlider {
+    scale: 52%;
+  }
+  .row .col-md-5 {
+    max-width: 225px;
+  }
+
+}
+
+@media (max-width: 545px) {
+.row .col-md-5 {
+    max-width: 500px;
+  }
+  .cineSlider {
+    scale: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-inner .carousel-item h1 {
+    font-size: 10px;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 60px;
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 420px) {
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .search-bar-container {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 376px) {
+  .row .col-md-2 {
+    max-width: 150px;
+  }
+
+  /*ICONOS PELÍCULAS*/
+  .filmSlider .img {
+    scale: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+/*PARA QUE LA SECCIÓN DE CONTACTO NO SE SOLAPE CON EL FOOTER Y EL NAVBAR*/
+
+@media (max-height: 900px){
+  .contact_section {
+    margin-top: 50px; /* Espacio entre la sección de contacto y la navbar */
+    margin-bottom: 100px; /* Espacio entre la sección de contacto y el footer */
+  }  
+}
+
+@media (max-height: 500px){
+.contact_section {
+  margin-top: 240px; /* Espacio entre la sección de contacto y la navbar */
+  margin-bottom: 240px; /* Espacio entre la sección de contacto y el footer */
+}
+}
+
+@media (max-height: 900px) and (max-width: 767px){
+  .contact_section {
+    margin-top: 50px; /* Espacio entre la sección de contacto y la navbar */
+    margin-bottom: 340px; /* Espacio entre la sección de contacto y el footer */
+  }  
+}
+
+@media (max-height: 570px) and (max-width: 767px){
+  .contact_section {
+    margin-top: 200px; /* Espacio entre la sección de contacto y la navbar */
+    margin-bottom: 340px; /* Espacio entre la sección de contacto y el footer */
+  }  
+}
+
+@media (max-height: 240px) and (max-width: 767px){
+  .contact_section {
+    margin-top: 270px; /* Espacio entre la sección de contacto y la navbar */
+    margin-bottom: 380px; /* Espacio entre la sección de contacto y el footer */
+  }  
+}
