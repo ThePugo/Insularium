@@ -1,57 +1,114 @@
-let allMovies = [];
-
 document.addEventListener('DOMContentLoaded', async function () {
-
-    //-----------------PARA BUSCAR PELÍCULAS CON EL BUSCADOR-----------------
-    //SE GUARDAN TODAS LAS PELIS
-    allMovies = await loadAllMovies();
-
     const searchBar = document.querySelector('.search-bar-container input');
     const searchButton = document.querySelector('.search-bar-container button');
-    
-    // Añadir event listener para la tecla "Enter"
-    searchBar.addEventListener('keypress', function (event) {
-        if (event.key === 'Enter') {
-            performSearch(); // Ejecutar la función de búsqueda
-        }
+    moviesLoaded.then(() => {
+        searchBar.addEventListener('keypress', function (event) {
+            if (event.key === 'Enter') {
+                performSearch();
+            }
+        });
+        searchButton.addEventListener('click', performSearch);
+        initializeTypeahead();
     });
-    // Añadir event listener a el botón de la lupa
-    searchButton.addEventListener('click', performSearch); 
     function performSearch() {
         const searchTerm = searchBar.value.toLowerCase().trim(); // Obtener el nombre de la peli
         const filteredMovies = allMovies.filter(movie => movie.title.toLowerCase().includes(searchTerm)); // Filtrar las películas basadas en el nombre
-    
-        // Si se encuentra al menos una película, redirigir al usuario a la página filmdetails.html
-        if (filteredMovies.length > 0) {
-            window.location.href = 'filmdetails.html';
-        } else {
-            console.log('No se encontraron películas.');
-        }
+        // Se carga en el HTML destino las películas encontradas (si no hay se mostrará un mensaje).
+        loadFilmsHTML(createFilmsHTML(filteredMovies));
     }
 });
 
-async function loadAllMovies() {
-    const response = await fetch('cines_cartelera.json');
-    if (!response.ok) {
-        throw new Error('Network response was not ok');
+//PARA CREAR LA LISTA DE PELIS DESEADA CLASIFICADAS POR GÉNERO EN FORMATO DE CARTELES HTML
+//A PARTIR DE LAS PELÍCULAS FILTRADAS
+function createFilmsHTML(filteredMovies) {
+
+    let filmsHTML = ''; // Donde se guardará el HTML resultante
+
+    //En caso de que no se hayan encontrado pelis se muestra
+    if (filteredMovies.length === 0) {
+        filmsHTML = '<h2 style="color: red;">No se han encontrado resultados</h2>'
+        return filmsHTML;
     }
-    const data = await response.json();
 
-    //procesar los datos para obtener todas las películas
-    data.subEvent.forEach(event => {
+    // Objeto para almacenar las películas clasificadas por género
+    let films = {};
 
-        if (event.workPerformed) {
-            allMovies.push({
-                title: event.workPerformed.name || 'Título no disponible',
-                duration: event.workPerformed.duration ? event.workPerformed.duration.replace('T0M', '').replace('S', ' min') : 'Duración no disponible',
-                genre: event.workPerformed.genre || 'Género no disponible',
-                director: event.workPerformed.director ? event.workPerformed.director.name : 'Director no disponible',
-                stars: event.workPerformed.actor ? event.workPerformed.actor.map(actor => actor.name).join(', ') : 'Actores no disponibles',
-                image: event.workPerformed.image || 'images/default-image.jpg',
-                trailerUrl: event.workPerformed.trailer ? event.workPerformed.trailer.contentUrl : '#',
-                readMore: event.workPerformed.sameAs ? event.workPerformed.sameAs : '#'
-            });
+    // Clasificar las películas por género
+    filteredMovies.forEach(movie => {
+        if (!films[movie.genre]) {
+            films[movie.genre] = [];
         }
+        films[movie.genre].push(movie);
     });
-    return allMovies;
+
+    // Iterar sobre cada género y generar el HTML correspondiente
+    for (let genre in films) {
+        filmsHTML += `
+            <br> <br>
+            <div class="cards1">
+                <div class="container container-hero-phone">
+                    <div class="card-slider-title-container related hero-fristone-tablet">
+                        <div class="title-card-slider">
+                            <h2>${genre}</h2>
+                        </div>
+                        <div class="films-slider">
+                            <div class="row text-center">
+        `;
+
+        // Añadir cada una de las películas de este género
+        films[genre].forEach(movie => {
+            filmsHTML += `<div class="cinema-movie">
+            <a href="filmdetails.html?${movie.title}"><img src="images/circle-info.png" class="info-icon" alt="Info"><img class="filmimage" src="${movie.image}" alt="${movie.title}"></a>
+            <div><strong>${movie.title}</strong></div>
+            </div>`;
+        });
+
+        filmsHTML += `
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+
+    return filmsHTML;
+}
+
+// Función para cargar el HTML generado en el almacenamiento local y redirigir a "pelisBuscadas.html"
+function loadFilmsHTML(filmsHTML) {
+    // Almacenar el HTML generado en el almacenamiento local
+    localStorage.setItem('filmsHTML', filmsHTML);
+    // Redirigir a la página "pelisBuscadas.html"
+    window.location.href = 'pelisBuscadas.html';
+}
+
+function initializeTypeahead() {
+    //obtiene los valores
+    var moviesNames = allMovies.map(movie => movie.title);
+    //inicializa la caja de búsqueda con Typeahead
+    $(".typeahead").each(function () {
+        var $input = $(this);
+        var sourceData;
+
+        if ($input.attr('placeholder').includes('Introduce el título de la película')) {
+            sourceData = moviesNames;
+        }
+
+        $input.typeahead({
+            source: sourceData,
+            autoSelect: true,
+        });
+
+        $input.change(function () {
+            var current = $input.typeahead("getActive");
+            matches = [];
+
+            if (current) {
+                if (current.name == $input.val()) {
+                    matches.push(current.name);
+                }
+            }
+        });
+    });
 }

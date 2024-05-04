@@ -28,6 +28,8 @@
     <link href="css/responsive.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
+    <script src= js/loadFilms.js></script>
     <script src="js/search.js"></script>
 </head>
 
@@ -72,7 +74,7 @@
                         </ul>
                     </div>
                     <div class="search-bar-container">
-                        <input type="text" placeholder="Introduce el título de la película">
+                        <input type="text" class="typeahead" data-provide="typeahead" placeholder="Introduce el título de la película">
                         <button>
                             <div class="lupa-img">
                                 <img src="images/lupa.png" alt="lupa">

@@ -1,37 +1,10 @@
-let allMovies = [];
-
 document.addEventListener('DOMContentLoaded', async function () {
-    allMovies = await loadAllMovies();
-    load3RandomMovies();
-    loadDestacadas();
-});
-
-async function loadAllMovies() {
-    const response = await fetch('cines_cartelera.json');
-    if (!response.ok) {
-        throw new Error('Network response was not ok');
-    }
-    const data = await response.json();
-
-    //procesar los datos para obtener todas las películas
-    data.subEvent.forEach(event => {
-
-        if (event.workPerformed) {
-            allMovies.push({
-                title: event.workPerformed.name || 'Título no disponible',
-                duration: event.workPerformed.duration ? event.workPerformed.duration.replace('T0M', '').replace('S', ' min') : 'Duración no disponible',
-                genre: event.workPerformed.genre || 'Género no disponible',
-                director: event.workPerformed.director ? event.workPerformed.director.name : 'Director no disponible',
-                stars: event.workPerformed.actor ? event.workPerformed.actor.map(actor => actor.name).join(', ') : 'Actores no disponibles',
-                image: event.workPerformed.image || 'images/default-image.jpg',
-                trailerUrl: event.workPerformed.trailer ? event.workPerformed.trailer.contentUrl : '#',
-                readMore: event.workPerformed.sameAs ? event.workPerformed.sameAs : '#'
-            });
-        }
+    moviesLoaded.then(() => {
+        // Ahora aquí puedes estar seguro de que allMovies está completamente cargado
+        load3RandomMovies();
+        loadDestacadas();
     });
-    return allMovies;
-}
-
+});
 async function load3RandomMovies() {
     try {
         let three = allMovies.sort(() => Math.random() - 0.5).slice(0, 3);
