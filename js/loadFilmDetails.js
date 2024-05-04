@@ -32,7 +32,7 @@ function displayFilmDetails(film, data, filmName) {
     document.getElementById('film-actors').innerText = film.actor.map(a => a.name).join(', ');
     document.getElementById('film-description').innerText = film.description;
     document.getElementById('film-image').src = film.image;
-    document.getElementById('film-trailer').href = film.trailer.contentUrl;
+    document.getElementById('trailer').href = film.trailer.contentUrl;
 
     // Display ratings
     film.aggregateRating.forEach(rating => {
