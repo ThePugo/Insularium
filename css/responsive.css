@@ -334,3 +334,9 @@
     margin-bottom: 380px; /* Espacio entre la sección de contacto y el footer */
   }  
 }
+
+@media (max-width: 768px) {
+  .cinema-cinemas-link {
+    margin: 10px 5px; /* Reduce el margen en dispositivos más pequeños */
+  }
+}

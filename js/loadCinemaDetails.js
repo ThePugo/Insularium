@@ -45,7 +45,7 @@ function displayCineDetails(data, cine, cineName) {
                 found = true;
                 const times = subEvent.doorTime.map(time => new Date(time).toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit' })).join(', ');
                 moviesList += `<div class="cinema-movie">
-                <a href="filmdetails.html?${event.workPerformed.name}"><img src="images/circle-info.png" class="info-icon" alt="Info"><img class="filmimage" src="${event.workPerformed.image}" alt="${event.workPerformed.name}"></a>
+                <a href="filmdetails.html?film=${event.workPerformed.name}"><img src="images/circle-info.png" class="info-icon" alt="Info"><img class="filmimage" src="${event.workPerformed.image}" alt="${event.workPerformed.name}"></a>
                 <div><strong>${event.workPerformed.name}</strong></div>
                 <div class="cinema-movie-time">${times}</div>
                 </div>`;

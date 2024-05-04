@@ -82,6 +82,9 @@ function updateFilmSection(movies, category) {
         const col = document.createElement('div');
         col.classList.add('col-md-2');
 
+        const ref = document.createElement('a');
+        ref.href = "filmdetails.html?film=" + encodeURIComponent(movie.title);
+
         const filmSlider = document.createElement('div');
         filmSlider.classList.add('filmSlider');
 
@@ -89,7 +92,8 @@ function updateFilmSection(movies, category) {
         img.src = movie.image;
         img.alt = movie.title;
 
-        filmSlider.appendChild(img);
+        ref.appendChild(img);
+        filmSlider.appendChild(ref);
         col.appendChild(filmSlider);
         filmSection.appendChild(col);
     });
