@@ -10,31 +10,35 @@ document.addEventListener('DOMContentLoaded', async function () {
             }
         }
 
-        const selectCategoryElement = document.getElementById('categoria');
-        const selectCinemaElement = document.getElementById('cine');
-        const allFilms = document.querySelectorAll('.cards1');
+        let selectedCategories = [];
+        let selectedCinemas = [];
 
-        selectCategoryElement.addEventListener('change', function () {
-            var selectedValue = this.value;
-            if (selectedValue === "Acción") {
-                selectedValue = "Accion";
-            }
-            console.log("Categoria seleccionada: "+selectedValue);
-
-            allFilms.forEach(film => {
-                if (film.querySelector(`#${selectedValue}`)) {
-                    film.style.display = 'block';
-                } else {
-                    film.style.display = 'none';
-                }
-            });
-
-            if (selectedValue === 'nocategoria') {
-                allFilms.forEach(film => {
-                    film.style.display = 'block';
-                });
+        // Instancia para categorías
+        new MultiSelectTag('categoria', {
+            rounded: true,
+            shadow: true,
+            placeholder: 'Busca',
+            onChange: function (values) {
+                selectedCategories = values.map(value => value.value);
+                filterFilms();
             }
         });
+
+        function filterFilms() {
+            const allSections = document.querySelectorAll('.cards1');
+            console.log(allSections);
+            if (selectedCinemas.length == 0) {
+                allSections.forEach(section => {
+                    const matchesCategory = selectedCategories.length === 0 || selectedCategories.some(cat => section.querySelector(`#${cat}`));
+    
+                    if (matchesCategory) {
+                        section.style.display = 'block';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            }
+        }
     });
 });
 
