@@ -1,5 +1,1 @@
 Header set Access-Control-Allow-Origin "*"
-RewriteEngine On
-RewriteBase /
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.cinesinsularium.com/ [R,L]
