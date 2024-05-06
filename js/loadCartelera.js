@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', async function () {
+    let generos = [];
     moviesLoaded.then(() => {
         // Ahora aquí puedes estar seguro de que allMovies está completamente cargado
         loadFilms(); // Usa la función para cargar las películas en la interfaz
@@ -19,6 +20,7 @@ document.addEventListener('DOMContentLoaded', async function () {
             shadow: true,
             placeholder: 'Busca',
             onChange: function (values) {
+                generos = values;
                 selectedCategories = values.map(value => value.value);
                 filterFilms();
             }
@@ -41,6 +43,45 @@ document.addEventListener('DOMContentLoaded', async function () {
         }
     });
 });
+
+function orderAsc() {
+    const categories = document.querySelectorAll('.films-slider .row');
+    categories.forEach(category => {
+        let movies = Array.from(category.children);
+        movies.sort((a, b) => a.querySelector('strong').textContent.localeCompare(b.querySelector('strong').textContent));
+        category.innerHTML = '';
+        movies.forEach(movie => category.appendChild(movie));
+    });
+    updateButtonStyles('asc');
+}
+
+function orderDesc() {
+    const categories = document.querySelectorAll('.films-slider .row');
+    categories.forEach(category => {
+        let movies = Array.from(category.children);
+        movies.sort((a, b) => b.querySelector('strong').textContent.localeCompare(a.querySelector('strong').textContent));
+        category.innerHTML = '';
+        movies.forEach(movie => category.appendChild(movie));
+    });
+    updateButtonStyles('desc');
+}
+
+function updateButtonStyles(direction) {
+    const ascButton = document.querySelector('.buttonOrder[onclick="orderAsc()"]');
+    const descButton = document.querySelector('.buttonOrder[onclick="orderDesc()"]');
+
+    if (direction === 'asc') {
+        ascButton.style.backgroundColor = 'red'; // Rojo para activo
+        ascButton.style.color = 'white'; // Texto blanco para activo
+        descButton.style.backgroundColor = ''; // Revertir a estilo predeterminado
+        descButton.style.color = ''; // Revertir a estilo predeterminado
+    } else if (direction === 'desc') {
+        descButton.style.backgroundColor = 'red'; // Rojo para activo
+        descButton.style.color = 'white'; // Texto blanco para activo
+        ascButton.style.backgroundColor = ''; // Revertir a estilo predeterminado
+        ascButton.style.color = ''; // Revertir a estilo predeterminado
+    }
+}
 
 function loadFilms() {
     const containers = {
