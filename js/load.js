@@ -15,6 +15,16 @@ async function load3RandomMovies() {
         three.forEach((movie, index) => {
             const carouselItem = document.createElement('div');
             carouselItem.className = `carousel-item ${index === 0 ? 'active' : ''}`;
+            let genre = null;
+            if (movie.genre === "Acción") {
+                genre = "Accion";
+            }
+            else if (movie.genre === "Ciencia Ficción") {
+                genre = "Ciencia-Ficcion";
+            }
+            else {
+                genre = movie.genre;
+            }
             carouselItem.innerHTML = `
           <div class="container">
           <div class="container">
@@ -23,7 +33,7 @@ async function load3RandomMovies() {
               <div class="detail-box">
                 <h1>${movie.title}</h1>
                 <h4>${movie.duration}</h4>
-                <a href="films.html#${movie.genre}" class="tag-movie-hero">${movie.genre}</a>
+                <a href="films.html#${genre}" class="tag-movie-hero">${movie.genre}</a>
                 <h2>Director: ${movie.director}</h2>
                 <h3>Stars: ${movie.stars}</h3>
                 <div class="btn-box">

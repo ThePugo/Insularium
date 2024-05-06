@@ -13,6 +13,8 @@
     <meta name="author" content="" />
     <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
     <script type="module" src="js/custom.js"></script>
+    <script src="js/loadFilms.js"></script>
+    <script src="js/loadCartelera.js"></script>
     <title>Insularium</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -30,8 +32,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
-    <script src= js/loadFilms.js></script>
     <script src="js/search.js"></script>
+
 </head>
 
 <body>
@@ -102,353 +104,200 @@
                         <div class="filtro-container">
                             <select id="categoria">
                                 <option value="nocategoria">Sin filtro de categoría</option>
-                                <option value="accion">Acción</option>
-                                <option value="comedia">Comedia</option>
-                                <option value="drama">Drama</option>
+                                <option value="Comedia">Comedia</option>
+                                <option value="Ciencia-Ficcion">Ciencia Ficción</option>
+                                <option value="Terror">Terror</option>
+                                <option value="Thriller">Thriller</option>
+                                <option value="Drama">Drama</option>
+                                <option value="Acción">Acción</option>
+                                <option value="Romance">Romance</option>
+                                <option value="Animación">Animación</option>
                             </select>
                             <select id="cine">
                                 <option value="nocine">Sin filtro de cine</option>
-                                <option value="cine1">Cine 1</option>
-                                <option value="cine2">Cine 2</option>
-                                <option value="cine3">Cine 3</option>
-                            </select>
-                            <select id="autor">
-                                <option value="noautor">Sin filtro de autor</option>
-                                <option value="autor1">Autor 1</option>
-                                <option value="autor2">Autor 2</option>
-                                <option value="autor3">Autor 3</option>
+                                <option value="artesietemallorca">Artesiete Fan</option>
+                                <option value="ocimaxpalmamallorca">Cines Ocimax</option>
+                                <option value="salaaugustamallorca">Sala Augusta</option>
+                                <option value="festivalparkmallorca">Cinesa Festival Park - IMAX</option>
+                                <option value="portopimallorca">Ocine Premium Porto Pi</option>
+                                <option value="rivolimallorca">Multicines Rívoli</option>
+                                <option value="cineciutatmallorca">Cine Ciutat</option>
+                                <option value="ocimaxmahonmenorca">Ocimax Mahón Aficine</option>
+                                <option value="cinescanalsalatmenorca">Cines Canal Salat</option>
+                                <option value="regioibiza">Cine Regio Ibiza</option>
+                                <option value="eivissaaficineibiza">Eivissa Aficine</option>
                             </select>
                         </div>
                         <br><br>
-                        <div class="title-card-slider">
-                            <h2 id="Comedia">Comedia</h2>
-                        </div>
-                        <div class="films-slider">
-                            <div class="row text-center">
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/ochoapellidosmarroquis.jpg"
-                                            alt="ocho apellidos marroquis" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/politicamenteincorrectos.jpg"
-                                            alt="politicamente incorrectos" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/portusm.jpg" alt="por tus muertos" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/sequedan.jpg" alt="los que se quedan" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/comedia/budapest.jpg" alt="budapest" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/comedia/lebowski.jpg" alt="lebowski" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/comedia/ochoapellidosvascos.jpg" alt="8apellidosvascos"
-                                            id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/comedia/resacon.jpg" alt="resacon" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/comedia/tropicthunder.jpg" alt="tropicthunder" id="pelicart">
-                                    </a>
+                        <div class="cards1">
+                            <div class="title-card-slider">
+                                <h2 id="Comedia">Comedia</h2>
+                            </div>
+                            <div id="Comedia">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+    
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cards1">
-                <div class="container container-hero-phone">
-                    <div class="card-slider-title-container related hero-fristone-tablet">
-                        <div class="title-card-slider">
-                            <h2 id="Terror">Terror</h2>
-                        </div>
-                        <div class="films-slider">
-                            <div class="row text-center">
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/lapiscina.jpg" alt="piscina" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/horrorpark.jpg" alt="horror park" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/imaginary.jpg" alt="imaginary" id="pelicart">
-                                    </a>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Ciencia-Ficcion">Ciencia Ficción</h2>
+                            </div>
+                            <div id="Ciencia-Ficcion">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cards1">
-                <div class="container container-hero-phone">
-                    <div class="card-slider-title-container related hero-fristone-tablet">
-                        <div class="title-card-slider">
-                            <h2 id="Thriller">Thriller</h2>
-                        </div>
-                        <div class="films-slider">
-                            <div class="row text-center">
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/oppenheimer.jpg" alt="oppenheimer" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/extorsion.jpg" alt="extorsion" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/reinoanimal.jpg" alt="el reino animal" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/anatomiacaida.jpg" alt="anatomia de una caida"
-                                            id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/thriller/elnombredelarosa.jpg" alt="el nombre de la rosa"
-                                            id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/thriller/psycho.jpg" alt="psycho" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/thriller/seven.jpg" alt="seven" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/thriller/shutterisland.jpg" alt="shutter island" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/thriller/silenceoffthelambs.jpeg" alt="silence of the lambs"
-                                            id="pelicart">
-                                    </a>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Terror">Terror</h2>
+                            </div>
+                            <div id="Terror">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cards1">
-                <div class="container container-hero-phone">
-                    <div class="card-slider-title-container related hero-fristone-tablet">
-                        <div class="title-card-slider">
-                            <h2 id="Drama">Drama</h2>
-                        </div>
-                        <div class="films-slider">
-                            <div class="row text-center">
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/radical.jpg" alt="radical" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/stella.jpg" alt="stella" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/onelove.jpg" alt="one love" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/mujeres.jpg"
-                                            alt="tratamos demasiado bien a las mujeres" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/ochomontañas.jpg" alt="ocho montañas" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/clanhierro.jpg" alt="el clan del hierro"
-                                            id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/estrellaazul.jpg" alt="la estrella azul"
-                                            id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/ocorno.jpg" alt="o corno" id="pelicart">
-                                    </a>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Thriller">Thriller</h2>
+                            </div>
+                            <div id="Thriller">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cards1">
-                <div class="container container-hero-phone">
-                    <div class="card-slider-title-container related hero-fristone-tablet">
-                        <div class="title-card-slider">
-                            <h2 id="Acción">Acción</h2>
-                        </div>
-                        <div class="films-slider">
-                            <div class="row text-center">
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/beekeeper.jpg" alt="beekeeper" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/dune2.jpg" alt="dune parte 2" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/aquaman.jpg" alt="aquaman 2" id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/madameweb.jpg" alt="madame web" id="pelicart">
-                                    </a>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Drama">Drama</h2>
+                            </div>
+                            <div id="Drama">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cards1">
-                <div class="container container-hero-phone">
-                    <div class="card-slider-title-container related hero-fristone-tablet">
-                        <div class="title-card-slider">
-                            <h2 id="Romance">Romance</h2>
-                        </div>
-                        <div class="films-slider">
-                            <div class="row text-center">
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/cualquieramenostu.jpg" alt="cualquiera menos tu"
-                                            id="pelicart">
-                                    </a>
-                                </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/pobrescriaturas.jpg" alt="pobres criaturas"
-                                            id="pelicart">
-                                    </a>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Accion">Acción</h2>
+                            </div>
+                            <div id="Accion">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="cards1">
-                <div class="container container-hero-phone">
-                    <div class="card-slider-title-container related hero-fristone-tablet">
-                        <div class="title-card-slider">
-                            <h2 id="Animación">Animación</h2>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Aventuras">Aventuras</h2>
+                            </div>
+                            <div id="Aventuras">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="films-slider">
-                            <div class="row text-center">
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/kungfupanda.jpg" alt="kung fu panda 4" id="pelicart">
-                                    </a>
+                    </div>
+                </div>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Romance">Romance</h2>
+                            </div>
+                            <div id="Romance">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/elchicoylagarza.jpg" alt="el chico y la garza"
-                                            id="pelicart">
-                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Animación">Animación</h2>
+                            </div>
+                            <div id="Animación">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/guardianesmuseo.jpg" alt="guardianes del museo"
-                                            id="pelicart">
-                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Musical">Musical</h2>
+                            </div>
+                            <div id="Musical">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
-                                <div class="col-md-2">
-                                    <a href="filmdetails.html" class="filmSlider" id="pelipanel">
-                                        <img src="images/circle-info.png" class="infocartlogo" alt="info">
-                                        <img src="images/carteles/katak.jpg" alt="katak" id="pelicart">
-                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cards1">
+                    <div class="container container-hero-phone">
+                        <div class="card-slider-title-container related hero-fristone-tablet">
+                            <div class="title-card-slider">
+                                <h2 id="Documental">Documental</h2>
+                            </div>
+                            <div id="Documental">
+                                <div class="films-slider">
+                                    <div class="row text-center">
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
