@@ -32,10 +32,10 @@ async function load3RandomMovies() {
             <div class="col-md-6 ">
               <div class="detail-box">
                 <h1>${movie.title}</h1>
-                <h4>${movie.duration}</h4>
+                <h2>${movie.duration}</h2><br>
                 <a href="films.html#${genre}" class="tag-movie-hero">${movie.genre}</a>
-                <h2>Director: ${movie.director}</h2>
-                <h3>Stars: ${movie.stars}</h3>
+                <h3>Director: ${movie.director}</h3>
+                <h4>Stars: ${movie.stars}</h4>
                 <div class="btn-box">
                     <a href="${movie.trailerUrl}" class="button" target="_blank">Ver trailer</a>
                     <a href="${movie.readMore}" class="button" target="_blank">Leer más</a>
