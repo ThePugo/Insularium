@@ -22,17 +22,17 @@ document.addEventListener('DOMContentLoaded', function () {
                     };
 
                     utterThis.onend = function (event) {
-                        ttsTrigger.src = "images/tts.png";
+                        ttsTrigger.src = "images/tts.svg";
                     };
 
                     speechSynthesis.speak(utterThis);
-                    ttsTrigger.src = "images/stop.png";
+                    ttsTrigger.src = "images/stop.svg";
                 } else {
                     console.log("No hay descripción disponible para leer.");
                 }
             }
             else {
-                ttsTrigger.src = "images/tts.png";
+                ttsTrigger.src = "images/tts.svg";
                 speechSynthesis.cancel();
             }
         });

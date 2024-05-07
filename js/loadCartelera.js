@@ -129,7 +129,7 @@ function loadFilms() {
             const filmDiv = document.createElement('div');
             filmDiv.className = 'col-md-2';
             filmDiv.innerHTML = `<div class="cinema-movie">
-            <a href="filmdetails.html?film=${movie.title}"><img src="images/circle-info.png" class="info-icon" alt="Info"><img class="filmimage" src="${movie.image}" alt="${movie.title}"></a>
+            <a href="filmdetails.html?film=${movie.title}"><img src="images/circle-info.svg" class="info-icon" alt="Info"><img class="filmimage" src="${movie.image}" alt="${movie.title}"></a>
             <div><strong>${movie.title}</strong></div>
             </div>`;
 
