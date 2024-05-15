@@ -103,12 +103,20 @@
                     <p><strong>Películas que Proyecta:</strong></p>
                     <ul id="cinema-movies"></ul>
                     <p><strong>Dirección:</strong> <span id="cinema-address"></span></p>
-                    <div class="map">
-                        <div class="title-card-slider">
-                            <h2>Ubicación en el mapa</h2>
+                    <div class="map-and-theaters-container">
+                        <div class="map">
+                            <div class="title-card-slider">
+                                <h2>Ubicación en el mapa</h2>
+                            </div>
+                            <div id="map"></div>
                         </div>
-                        <div id="map"></div>
-                    </div>
+                        <div class="button-container">
+                            <button id="toggle-theaters" class="toggle-theaters">Mostrar Teatros Cercanos</button>
+                            <button id="toggle-feria" class="toggle-feria">Mostrar Ferias Cercanas</button>
+                        </div>                        
+                    </div>                    
+                    
+                    
                 </div>
             </div>
         </div>
@@ -125,12 +133,27 @@
             });
         }
 
-        function placeMarker(latitude, longitude, nom) {
+        function placeMarker(latitude, longitude, nom, link) {
             var position = new google.maps.LatLng(latitude, longitude);
+            const redIcon = {
+                path: google.maps.SymbolPath.CIRCLE,
+                scale: 8,
+                fillColor: '#FF0000',
+                fillOpacity: 0.8,
+                strokeWeight: 2,
+                strokeColor: '#000000'
+            };
             var marker = new google.maps.Marker({
                 position: position,
                 map: map,
+                icon: redIcon,
                 title: nom
+            });
+            const infoWindow = new google.maps.InfoWindow({
+                content: `<div><strong style="color: black;">${nom}</strong><br><a href="${link}" target="_blank">Más detalles</a></div>`
+            });
+            marker.addListener('click', function() {
+                infoWindow.open(map, marker);
             });
             map.setCenter(position);
         }

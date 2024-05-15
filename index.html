@@ -13,7 +13,7 @@
   <meta name="author" content="" />
   <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
   <script type="module" src="js/custom.js"></script>
-  <script src= js/loadFilms.js></script>
+  <script src=js/loadFilms.js></script>
   <script src="js/load.js"></script>
   <script src="js/search.js"></script>
   <script type="application/ld+json" id="WebSemantica">
@@ -93,7 +93,8 @@
           </div>
           <br>
           <div class="search-bar-container">
-            <input type="text" class="typeahead" data-provide="typeahead" placeholder="Introduce el título de la película">
+            <input type="text" class="typeahead" data-provide="typeahead"
+              placeholder="Introduce el título de la película">
             <button>
               <div class="lupa-img">
                 <img src="images/lupa.svg" alt="lupa">
@@ -176,7 +177,7 @@
       </div>
     </div>
   </section>
-  
+
   <!-- AUTHORS SECTION -->
   <div class="hero_area">
     <section class="choice_section layout_padding">
@@ -267,6 +268,13 @@
                       position: new google.maps.LatLng(location.geo.latitude, location.geo.longitude),
                       map: map,
                       title: screeningEvent.location.name
+                    });
+                    const infoWindow = new google.maps.InfoWindow({
+                      content: `<div><strong style="color: black;">${screeningEvent.location.name}</strong><br><a href="${screeningEvent.location.sameAs}" target="_blank">Más detalles</a></div>`
+                    });
+
+                    marker.addListener('click', () => {
+                      infoWindow.open(map, marker);
                     });
                   }
                 });

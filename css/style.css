@@ -2197,3 +2197,38 @@ background-color: black;
   background-color: red; /* Color de fondo cuando está activo */
   color: #ffffff;
 }
+
+.toggle-theaters, .toggle-feria {
+  flex: 1; /* Hace que cada botón crezca igualmente */
+  padding: 17px 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: red;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+
+.toggle-theaters:not(:last-child), .toggle-feria:not(:last-child) {
+  margin-right: 10px; /* Añade un pequeño espacio entre los botones si no es el último elemento */
+}
+
+.toggle-theaters:active, .toggle-feria:active {
+  background-color: rgb(255, 56, 86);
+  box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.toggle-theaters:hover, .toggle-feria:hover {
+  box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
+  margin-top: 20px; /* Espaciado respecto al mapa */
+}
