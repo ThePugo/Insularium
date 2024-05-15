@@ -156,11 +156,11 @@ function displayNearbyFerias(feriaData, cine) {
 
         if (!foundFerias) {
             alert("No hay ferias cercanas.");
+            feriaMarkersDisplayed = false;
         } else {
             map.fitBounds(bounds);
+            feriaMarkersDisplayed = true;
         }
-
-        feriaMarkersDisplayed = true;
     }
 }
 
