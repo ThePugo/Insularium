@@ -2232,3 +2232,107 @@ background-color: black;
   justify-content: space-between; /* Alinea los elementos al principio y al final del contenedor */
   margin-top: 20px; /* Espaciado respecto al mapa */
 }
+
+
+/* REPRODUCTOR DE VIDEO */
+
+video::cue{
+  font-size: 12px !important;
+}
+
+.video-item{
+  margin-top: 1.5em;
+  width: 94%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(124, 123, 123);
+}
+
+.video-container{
+  color: white;
+  margin-left: 2em;
+}
+
+/* .video-container video{
+  filter: brightness(40%);
+} */
+
+video::cue {
+  background-color: transparent;
+  color: rgb(201, 46, 70);
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "DM Sans";
+  text-shadow: 1px 1px 10px #4a4a4a;
+}
+
+.video-options{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.video-options li{
+  width: 33%;
+}
+
+.options, .video-timer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-container{
+  height: 5px;
+  background-color: grey;
+  width: 94%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.progress-container .progress-bar{
+  height: 5px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.progress-container .progress-bar:hover{
+  height: 7.5px;
+}
+
+.options button{
+  color:rgb(191, 191, 191);
+  background: none;
+  border: 0;
+}
+
+.options button:hover{
+  color: white;
+}
+
+.dropdown-menu.speed-options, .dropdown-menu.quality-options{
+  min-width: 50%;
+  background-color: rgba(32, 32, 32, 0.459);
+}
+
+.dropup{
+  width: 20%;
+}
+
+.fullscreen-btn{
+  padding-left: 0.95em;
+}
+
+.dropdown-menu.speed-options, .dropdown-menu.quality-options{
+  min-width: 50%;
+  background-color: rgba(32, 32, 32, 0.459);
+}
+
+.dropdown-menu>li{
+  width: 100%;
+  color: white;
+}
+.main-title button .fas.fa-arrow-right{
+  display: none;
+}
