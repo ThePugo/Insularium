@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang="es">
 
 <head>
     <!-- Basic -->
@@ -12,7 +12,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="description"
-    content="Insularium, donde se ofrece la mejor experiencia de cine posible en las Islas Baleares">
+        content="Insularium, donde se ofrece la mejor experiencia de cine posible en las Islas Baleares">
     <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
     <script type="module" src="js/custom.js"></script>
     <script type="application/ld+json" id="WebSemantica"> </script>
@@ -39,16 +39,16 @@
     <script src=js/loadFilms.js></script>
     <script src=js/loadFilmDetails.js></script>
     <script src="js/tts.js"></script>
-</head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6KMC1ZYST"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6KMC1ZYST"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-  gtag('config', 'G-Z6KMC1ZYST');
-</script>
+        gtag('config', 'G-Z6KMC1ZYST');
+    </script>
+</head>
 
 <body>
     <div class="hero_area">
@@ -116,15 +116,20 @@
                     <img id="film-image" alt="Imagen de la Película" class="img-fluid">
                 </div>
                 <div class="col-md-6 text-center">
-                    <strong><h2 id="film-name"></h2></strong>
+                    <strong>
+                        <h2 id="film-name"></h2>
+                    </strong>
                     <p><strong>Duración:</strong> <span id="film-duration"></span></p>
                     <p><strong>Género:</strong> <span id="film-genre"></span></p>
                     <p><strong>Director:</strong> <span id="film-director"></span></p>
                     <p><strong>Actores:</strong> <span id="film-actors"></span></p>
                     <p><strong>Descripción:</strong> <span id="film-description"></span></p>
-                    <img id="tts-trigger" src="images/tts.svg" alt="Leer Descripción" style="max-width: 30px; max-height: 30px;" class="img-fluid"><br><br>
+                    <img id="tts-trigger" src="images/tts.svg" alt="Leer Descripción"
+                        style="max-width: 30px; max-height: 30px;" class="img-fluid"><br><br>
                     <div id="film-ratings" class="ratings"></div>
-                    <a href="" target="_blank" class="trailer" id = "trailer" style="text-decoration: none;"><h4 id = "film-trailer">Trailer </h4></a>
+                    <a href="" target="_blank" class="trailer" id="trailer" style="text-decoration: none;">
+                        <h4 id="film-trailer">Trailer </h4>
+                    </a>
                     <h4>Cines que la proyectan:</h4>
                     <div id="film-cinemas"></div>
                 </div>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang="es">
 
 <head>
     <!-- Basic -->
@@ -12,13 +12,13 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="description"
-    content="Insularium, donde se ofrece la mejor experiencia de cine posible en las Islas Baleares">
+        content="Insularium, donde se ofrece la mejor experiencia de cine posible en las Islas Baleares">
     <link rel="icon" type="image/x-icon" href="favicon/icon.ico">
     <script type="module" src="js/custom.js"></script>
     <script src="js/loadFilms.js"></script>
     <script src="js/loadCartelera.js"></script>
     <script type="application/ld+json" id="WebSemantica"> </script>
-    
+
     <title>Insularium</title>
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -39,17 +39,17 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/habibmhamadi/multi-select-tag@3.0.1/dist/js/multi-select-tag.js"></script>
     <script src="js/search.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6KMC1ZYST"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z6KMC1ZYST');
+    </script>
 
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z6KMC1ZYST"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Z6KMC1ZYST');
-</script>
 
 <body>
     <div class="hero_area">
@@ -118,7 +118,7 @@
                         <h4><strong> INTRODUCE LOS FILTROS QUE DESEES:</strong></h4>
                         <br>
                         <div class="filtro-container">
-                            <button onclick = orderAsc() class= "buttonOrder">
+                            <button onclick=orderAsc() class="buttonOrder">
                                 Orden Ascendente
                             </button>
                             <select id="categoria" multiple>
@@ -134,7 +134,7 @@
                                 <option value="Musical">Musical</option>
                                 <option value="Documental">Documental</option>
                             </select>
-                            <button onclick = orderDesc() class="buttonOrder">
+                            <button onclick=orderDesc() class="buttonOrder">
                                 Orden Descendente
                             </button>
                         </div>
