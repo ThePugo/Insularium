@@ -207,7 +207,7 @@
   <section class="videoPlayer">
     <div class="container">
       <!-- Videos -->
-      <video class="video-item" src="videos/PortoPiCine.mp4" height="auto" width="100%" id="video-cines"
+      <video class="video-item" src="videos/PresentacionMiembros.mp4" height="auto" width="100%" id="video-cines"
         preload="metadata">
         <source src="videos/PortoPiCine.mp4">
       </video>
@@ -234,6 +234,10 @@
             <button class="play-btn" onclick="playVideo()"><i class="fas fa-play"></i></button>
             <button class="forward-tbn" onclick="forwardVideo()"><i class="fas fa-forward"></i></button>
           </li>
+          <div class="audio-controller">
+            <i id="volume-icon" class="fas fa-volume-down"></i>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
+          </div>
           <li class="options" id="opt-right">
             <!-- Botones cambiar velocidad y pantalla completa-->
             <div class="dropup">
@@ -255,6 +259,7 @@
         </ul>
       </div>
     </div>
+    <script src="js/videoControls.js"></script>
   </section>
 
   <!-- AUTHORS SECTION -->

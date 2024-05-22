@@ -552,8 +552,7 @@ h4 {
 }
 #videoPlayer {
   background-color: black; /* Establece el fondo del video a negro */
-  width: 854px; /* Ancho fijo */
-  height: 480px; /* Altura fija */
+  align-items: center;
   object-fit: contain; /* Asegura que el video se ajuste al contenedor sin perder su aspecto */
 }
 .about_section .detail-box h3 {
@@ -2335,4 +2334,48 @@ video::cue {
 }
 .main-title button .fas.fa-arrow-right{
   display: none;
+}
+
+.audio-controller {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: red;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: -3px;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: red;
+  cursor: pointer;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 8px;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type="range"]::-moz-range-track {
+  height: 5px;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
 }
