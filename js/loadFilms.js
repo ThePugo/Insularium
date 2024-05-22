@@ -27,20 +27,28 @@ async function loadAllMovies() {
 }
 
 function parseJSON(data) {
-        // Esta función extrae eventos de 'subEvent' y genera marcado JSON-LD para cada uno.
-        let jsonLDs = [];
-        data.subEvent.forEach(event => {
-            let jsonLD = generateJsonLD(event);
-            jsonLDs.push(jsonLD);
+    let jsonLDs = [];
+    data.subEvent.forEach(event => {
+        // Suponiendo que cada 'event' pueda tener múltiples 'subEvent',
+        // y cada 'subEvent' es un evento individual que queremos marcar.
+        event.subEvent.forEach(subEvent => {
+            jsonLDs.push(generateJsonLD(subEvent, event.workPerformed));
         });
-    document.getElementById('WebSemantica_cines').innerHTML = JSON.stringify(jsonLDs);
+    });
+
+    // Envolver los eventos individuales en un objeto que cumpla con las expectativas de Google
+    const jsonLDWrapper = {
+        "@context": "https://schema.org",
+        "@graph": jsonLDs // Usamos @graph para encapsular múltiples objetos
+    };
+
+    document.getElementById('WebSemantica_cines').innerHTML = JSON.stringify(jsonLDWrapper);
 }
 
 
-function generateJsonLD(event) {
-    // Esta función crea un marcado JSON-LD para un evento de proyección de película específico.
-    // Adaptado para manejar el anidamiento adicional en subEvent.
-    return event.subEvent.map(subEvent => ({
+function generateJsonLD(subEvent, workPerformed) {
+    // Genera el marcado JSON-LD para un sub-evento específico, incluyendo información de la película.
+    return {
         "@context": "https://schema.org",
         "@type": "ScreeningEvent",
         "name": subEvent.name,
@@ -52,37 +60,26 @@ function generateJsonLD(event) {
             "photo": subEvent.location.photo,
             "sameAs": subEvent.location.sameAs,
             "screenCount": subEvent.location.screenCount,
-            "address": {
-                "@type": "PostalAddress",
-                "streetAddress": subEvent.location.location[0].address.streetAddress,
-                "addressLocality": subEvent.location.location[0].address.addressLocality,
-                "postalCode": subEvent.location.location[0].address.postalCode,
-                "addressRegion": subEvent.location.location[0].address.addressRegion,
-                "addressCountry": "ES"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": subEvent.location.location[1].geo.latitude,
-                "longitude": subEvent.location.location[1].geo.longitude
-            }
+            "address": subEvent.location.location[0].address,
+            "geo": subEvent.location.location[1].geo
         },
         "workPerformed": {
             "@type": "Movie",
-            "name": event.workPerformed.name,
-            "image": event.workPerformed.image,
-            "duration": event.workPerformed.duration.replace('T0M', '').replace('S', ' min'),
-            "description": event.workPerformed.description,
-            "genre": event.workPerformed.genre,
-            "inLanguage": event.workPerformed.inLanguage,
+            "name": workPerformed.name,
+            "image": workPerformed.image,
+            "duration": workPerformed.duration.replace('T0M', '').replace('S', ' min'),
+            "description": workPerformed.description,
+            "genre": workPerformed.genre,
+            "inLanguage": workPerformed.inLanguage,
             "director": {
                 "@type": "Person",
-                "name": event.workPerformed.director.name
+                "name": workPerformed.director.name
             },
-            "actor": event.workPerformed.actor.map(actor => ({
+            "actor": workPerformed.actor.map(actor => ({
                 "@type": "Person",
                 "name": actor.name
             })),
-            "aggregateRating": event.workPerformed.aggregateRating.map(rating => ({
+            "aggregateRating": workPerformed.aggregateRating.map(rating => ({
                 "@type": "AggregateRating",
                 "ratingValue": rating.ratingValue,
                 "image": rating.image,
@@ -90,8 +87,8 @@ function generateJsonLD(event) {
             })),
             "trailer": {
                 "@type": "VideoObject",
-                "contentUrl": event.workPerformed.trailer.contentUrl
+                "contentUrl": workPerformed.trailer.contentUrl
             }
         }
-    }));
+    };
 }
