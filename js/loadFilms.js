@@ -33,9 +33,9 @@ function parseJSON(data) {
     data.subEvent.forEach(event => {
         event.subEvent.forEach(subEvent => {
             // Usamos el nombre del subEvento como clave única
-            if (!processedSubEventNames.has(subEvent.name)) {
+            if (!processedSubEventNames.has(subEvent.location.name)) {
                 jsonLDs.push(generateJsonLD(subEvent, event.workPerformed));
-                processedSubEventNames.add(subEvent.name); // Marcar el nombre como procesado
+                processedSubEventNames.add(subEvent.location.name); // Marcar el nombre como procesado
             }
         });
     });
