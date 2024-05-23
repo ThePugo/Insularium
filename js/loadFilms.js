@@ -28,14 +28,14 @@ async function loadAllMovies() {
 
 function parseJSON(data) {
     let jsonLDs = [];
-    let processedSubEvents = new Set(); // Conjunto para almacenar identificadores de subEventos ya procesados
+    let processedSubEventNames = new Set(); // Conjunto para almacenar nombres de subEventos ya procesados
 
     data.subEvent.forEach(event => {
         event.subEvent.forEach(subEvent => {
-            // Usamos un identificador único para cada subEvento, como 'id' o similar
-            if (!processedSubEvents.has(subEvent.id)) {
+            // Usamos el nombre del subEvento como clave única
+            if (!processedSubEventNames.has(subEvent.name)) {
                 jsonLDs.push(generateJsonLD(subEvent, event.workPerformed));
-                processedSubEvents.add(subEvent.id); // Marcar como procesado
+                processedSubEventNames.add(subEvent.name); // Marcar el nombre como procesado
             }
         });
     });
