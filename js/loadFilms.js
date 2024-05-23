@@ -72,7 +72,11 @@ function generateJsonLD(movie) {
             "name": movie.director.name
         } : undefined,
         "genre": movie.genre,
-        "inLanguage": movie.inLanguage
+        "inLanguage": movie.inLanguage,
+        "actor": movie.actor.map(actor => ({ // Agrega la lista de actores
+            "@type": "Person",
+            "name": actor.name
+        })),
     };
 }
 
