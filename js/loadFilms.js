@@ -28,22 +28,26 @@ async function loadAllMovies() {
 
 function parseJSON(data) {
     let jsonLDs = [];
+    let processedSubEvents = new Set(); // Conjunto para almacenar identificadores de subEventos ya procesados
+
     data.subEvent.forEach(event => {
-        // Suponiendo que cada 'event' pueda tener múltiples 'subEvent',
-        // y cada 'subEvent' es un evento individual que queremos marcar.
         event.subEvent.forEach(subEvent => {
-            jsonLDs.push(generateJsonLD(subEvent, event.workPerformed));
+            // Usamos un identificador único para cada subEvento, como 'id' o similar
+            if (!processedSubEvents.has(subEvent.id)) {
+                jsonLDs.push(generateJsonLD(subEvent, event.workPerformed));
+                processedSubEvents.add(subEvent.id); // Marcar como procesado
+            }
         });
     });
 
-    // Envolver los eventos individuales en un objeto que cumpla con las expectativas de Google
     const jsonLDWrapper = {
         "@context": "https://schema.org",
-        "@graph": jsonLDs // Usamos @graph para encapsular múltiples objetos
+        "@graph": jsonLDs
     };
 
     document.getElementById('WebSemantica_cines').innerHTML = JSON.stringify(jsonLDWrapper);
 }
+
 
 
 function generateJsonLD(subEvent, workPerformed) {
