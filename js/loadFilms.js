@@ -27,72 +27,64 @@ async function loadAllMovies() {
 }
 
 function parseJSON(data) {
-    let jsonLDs = [];
-    let processedSubEventNames = new Set(); // Conjunto para almacenar nombres de subEventos ya procesados
+    let uniqueCinemas = new Set();  // Conjunto para almacenar cines únicos
+    let uniqueMovies = new Set();   // Conjunto para almacenar películas únicas
+    let cinemaJsonLDs = [];         // Lista para JSON-LD de cines
+    let movieJsonLDs = [];          // Lista para JSON-LD de películas
 
     data.subEvent.forEach(event => {
+        // Procesar las películas únicas
+        if (!uniqueMovies.has(event.workPerformed.name)) {
+            movieJsonLDs.push(generateJsonLD(event.workPerformed));
+            uniqueMovies.add(event.workPerformed.name);
+        }
+
         event.subEvent.forEach(subEvent => {
-            // Usamos el nombre del subEvento como clave única
-            if (!processedSubEventNames.has(subEvent.location.name)) {
-                jsonLDs.push(generateJsonLD(subEvent, event.workPerformed));
-                processedSubEventNames.add(subEvent.location.name); // Marcar el nombre como procesado
+            // Procesar los cines únicos
+            if (!uniqueCinemas.has(subEvent.location.name)) {
+                cinemaJsonLDs.push(generateCinemaJsonLD(subEvent.location));
+                uniqueCinemas.add(subEvent.location.name);
             }
         });
     });
 
+    // Combinar todos los JSON-LD en un solo objeto para la salida
     const jsonLDWrapper = {
         "@context": "https://schema.org",
-        "@graph": jsonLDs
+        "@type": "EventSeries",
+        "@graph": [...cinemaJsonLDs, ...movieJsonLDs]
     };
 
     document.getElementById('WebSemantica_cines').innerHTML = JSON.stringify(jsonLDWrapper);
 }
 
-
-
-function generateJsonLD(subEvent, workPerformed) {
-    // Genera el marcado JSON-LD para un sub-evento específico, incluyendo información de la película.
+function generateJsonLD(movie) {
+    // Genera el marcado JSON-LD para una película específica
     return {
-        "@context": "https://schema.org",
-        "@type": "ScreeningEvent",
-        "name": subEvent.name,
-        "startDate": subEvent.doorTime ? subEvent.doorTime[0] : undefined,
-        "endDate": subEvent.doorTime ? subEvent.doorTime[subEvent.doorTime.length - 1] : undefined,
-        "location": {
-            "@type": "MovieTheater",
-            "name": subEvent.location.name,
-            "photo": subEvent.location.photo,
-            "sameAs": subEvent.location.sameAs,
-            "screenCount": subEvent.location.screenCount,
-            "address": subEvent.location.location[0].address,
-            "geo": subEvent.location.location[1].geo
-        },
-        "workPerformed": {
-            "@type": "Movie",
-            "name": workPerformed.name,
-            "image": workPerformed.image,
-            "duration": workPerformed.duration.replace('T0M', '').replace('S', ' min'),
-            "description": workPerformed.description,
-            "genre": workPerformed.genre,
-            "inLanguage": workPerformed.inLanguage,
-            "director": {
-                "@type": "Person",
-                "name": workPerformed.director.name
-            },
-            "actor": workPerformed.actor.map(actor => ({
-                "@type": "Person",
-                "name": actor.name
-            })),
-            "aggregateRating": workPerformed.aggregateRating.map(rating => ({
-                "@type": "AggregateRating",
-                "ratingValue": rating.ratingValue,
-                "image": rating.image,
-                "sameAs": rating.sameAs
-            })),
-            "trailer": {
-                "@type": "VideoObject",
-                "contentUrl": workPerformed.trailer.contentUrl
-            }
-        }
+        "@type": "Movie",
+        "name": movie.name,
+        "sameAs": movie.sameAs,
+        "duration": movie.duration.replace('T0M', '').replace('S', ' min'),
+        "image": movie.image,
+        "description": movie.description,
+        "director": movie.director ? {
+            "@type": "Person",
+            "name": movie.director.name
+        } : undefined,
+        "genre": movie.genre,
+        "inLanguage": movie.inLanguage
+    };
+}
+
+function generateCinemaJsonLD(location) {
+    // Genera el marcado JSON-LD para un cine específico
+    return {
+        "@type": "MovieTheater",
+        "name": location.name,
+        "photo": location.photo,
+        "sameAs": location.sameAs,
+        "screenCount": location.screenCount,
+        "address": location.location[0].address,
+        "geo": location.location[1].geo
     };
 }
