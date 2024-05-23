@@ -230,12 +230,12 @@
           <li class="options center">
             <!-- Botones retroceder, iniciar/pausar, avanzar video -->
             <button class="backward-btn" onclick="backwardVideo()" aria-label="Backward Button"><i class="fas fa-backward"></i></button>
-            <button class="play-btn" onclick="playVideo()"><i class="fas fa-play" aria-label="Play Button"></i></button>
-            <button class="forward-tbn" onclick="forwardVideo()"><i class="fas fa-forward" aria-label="Forward Button"></i></button>
+            <button class="play-btn" onclick="playVideo()" aria-label="Play Button"><i class="fas fa-play"></i></button>
+            <button class="forward-tbn" onclick="forwardVideo()" aria-label="Forward Button"><i class="fas fa-forward"></i></button>
           </li>
           <li class="audio-controller">
             <i id="volume-icon" class="fas fa-volume-down"></i>
-            <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1" aria-labelledby="Volume Slider">
+            <div id="volumen" style="display: none;">Volume Slider</div><input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1" aria-labelledby="volumen">
           </li>
           <li class="options" id="opt-right">
             <!-- Botones cambiar velocidad y pantalla completa-->
