@@ -230,18 +230,18 @@
           </li>
           <li class="options center">
             <!-- Botones retroceder, iniciar/pausar, avanzar video -->
-            <button class="backward-btn" onclick="backwardVideo()"><i class="fas fa-backward"></i></button>
-            <button class="play-btn" onclick="playVideo()"><i class="fas fa-play"></i></button>
-            <button class="forward-tbn" onclick="forwardVideo()"><i class="fas fa-forward"></i></button>
+            <button class="backward-btn" onclick="backwardVideo()" aria-label="Backward Button"><i class="fas fa-backward"></i></button>
+            <button class="play-btn" onclick="playVideo()"><i class="fas fa-play" aria-label="Play Button"></i></button>
+            <button class="forward-tbn" onclick="forwardVideo()"><i class="fas fa-forward" aria-label="Forward Button"></i></button>
           </li>
-          <div class="audio-controller">
+          <li class="audio-controller">
             <i id="volume-icon" class="fas fa-volume-down"></i>
-            <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1">
-          </div>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.1" value="1" aria-labelledby="Volume Slider">
+          </li>
           <li class="options" id="opt-right">
             <!-- Botones cambiar velocidad y pantalla completa-->
             <div class="dropup">
-              <button class="btn speed-btn" data-bs-toggle="dropdown"><i class="fas fa-gauge"></i>
+              <button class="btn speed-btn" data-bs-toggle="dropdown" aria-label="Speed Button"><i class="fas fa-gauge"></i>
               </button>
               <ul class="dropdown-menu speed-options">
                 <li class="dropdown-item">2</li>
@@ -254,7 +254,7 @@
                 <li class="dropdown-item">0.25</li>
               </ul>
             </div>
-            <button class="fullscreen-btn" onclick="fullscreen()"><i class="fas fa-expand"></i></button>
+            <button class="fullscreen-btn" onclick="fullscreen()" aria-label="Fullscreen Button"><i class="fas fa-expand"></i></button>
           </li>
         </ul>
       </div>
