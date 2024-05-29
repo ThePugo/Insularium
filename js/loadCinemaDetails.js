@@ -7,38 +7,67 @@ var feriaMarkers = [];
 document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const cineName = params.get('cine');
+    const distanceSlider = document.getElementById('distanceRange');
+    const distanceValueLabel = document.getElementById('distanceValue');
+    const toggleTheatersButton = document.getElementById('toggle-theaters');
+    const toggleFeriasButton = document.getElementById('toggle-feria');
+    let theaterData, feriaData, cine;
 
     Promise.all([
         fetch('cines_cartelera.json'),
         fetch('https://www.descobreixteatre.com/assets/json/Teatre.json'),
         fetch('https://www.firabalear.com/assets/json/fires.json')
     ]).then(responses => Promise.all(responses.map(res => res.json())))
-        .then(([cineData, theaterData, feriaData]) => {
-            const cine = findCine(cineData, cineName);
+        .then(([cineData, theaterDataResponse, feriaDataResponse]) => {
+            theaterData = theaterDataResponse;
+            feriaData = feriaDataResponse;
+            cine = findCine(cineData, cineName);
             displayCineDetails(cineData, cine, cineName);
-            const toggleTheaterButton = document.getElementById('toggle-theaters');
-            const toggleFeriasButton = document.getElementById('toggle-feria');
-            toggleTheaterButton.addEventListener('click', function () {
-                displayNearbyTheaters(theaterData, cine);
-                // Cambiar el texto del botón basado en el estado actual
-                if (!theaterMarkersDisplayed) {
-                    toggleTheaterButton.textContent = "Mostrar Teatros Cercanos";
-                } else {
-                    toggleTheaterButton.textContent = "Ocultar Teatros Cercanos";
-                }
-            });
-            toggleFeriasButton.addEventListener('click', function () {
-                displayNearbyFerias(feriaData, cine);
-                // Cambiar el texto del botón basado en el estado actual
-                if (!feriaMarkersDisplayed) {
-                    toggleFeriasButton.textContent = "Mostrar Ferias Cercanas";
-                } else {
-                    toggleFeriasButton.textContent = "Ocultar Ferias Cercanas";
-                }
-            });
         })
         .catch(error => console.error('Error loading data:', error));
+
+    distanceSlider.addEventListener('input', function () {
+        distanceValueLabel.textContent = distanceSlider.value;
+        // Solo actualiza los marcadores si los botones han sido activados
+        if (theaterMarkersDisplayed) {
+            displayNearbyTheaters(theaterData, cine, distanceSlider.value);
+        }
+        if (feriaMarkersDisplayed) {
+            displayNearbyFerias(feriaData, cine, distanceSlider.value);
+        }
+    });
+
+    // Evento para el botón de teatros
+    toggleTheatersButton.addEventListener('click', function () {
+        theaterMarkersDisplayed = !theaterMarkersDisplayed; // Cambia el estado
+        if (theaterMarkersDisplayed) {
+            displayNearbyTheaters(theaterData, cine, distanceSlider.value); // Muestra los teatros
+            toggleTheatersButton.textContent = "Ocultar Teatros Cercanos";
+        } else {
+            clearTheaterMarkers(); // Oculta los teatros
+            toggleTheatersButton.textContent = "Mostrar Teatros Cercanos";
+        }
+    });
+
+    // Evento para el botón de ferias
+    toggleFeriasButton.addEventListener('click', function () {
+        feriaMarkersDisplayed = !feriaMarkersDisplayed; // Cambia el estado
+        if (feriaMarkersDisplayed) {
+            displayNearbyFerias(feriaData, cine, distanceSlider.value); // Muestra las ferias
+            toggleFeriasButton.textContent = "Ocultar Ferias Cercanas";
+        } else {
+            clearFeriasMarkers(); // Oculta las ferias
+            toggleFeriasButton.textContent = "Mostrar Ferias Cercanas";
+        }
+    });
 });
+function updateMarkers(cine, theaterData, feriaData, distance) {
+    clearTheaterMarkers();  // Limpia los marcadores existentes
+    clearFeriasMarkers();   // Limpia los marcadores existentes
+
+    displayNearbyTheaters(theaterData, cine, distance);
+    displayNearbyFerias(feriaData, cine, distance);
+}
 
 function findCine(data, cineName) {
     for (const event of data.subEvent) {
@@ -91,26 +120,19 @@ function displayCineDetails(data, cine, cineName) {
     document.getElementById('cinema-movies').innerHTML = moviesList
 }
 
-function displayNearbyTheaters(theaterData, cine) {
-    if (theaterMarkersDisplayed) {
+function displayNearbyTheaters(theaterData, cine, distance) {
+    if (!theaterMarkersDisplayed) return;  // Si los marcadores de teatros no deben mostrarse, salir de la función.
 
-        clearTheaterMarkers();
-        theaterMarkersDisplayed = false;
-    } else {
-        const bounds = new google.maps.LatLngBounds();
-        const cineLatLng = new google.maps.LatLng(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude);
-        bounds.extend(cineLatLng);
+    clearTheaterMarkers();  // Limpia los marcadores existentes
+    const bounds = new google.maps.LatLngBounds();
+    const cineLatLng = new google.maps.LatLng(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude);
+    bounds.extend(cineLatLng);
 
-        let foundTheathers = false;
+    const nearbyTheaters = theaterData.itemListElement.filter(theater => {
+        return isNearby(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude, theater.geo.latitude, theater.geo.longitude, distance);
+    });
 
-        const nearbyTheaters = theaterData.itemListElement.filter(theater => {
-            return isNearby(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude, theater.geo.latitude, theater.geo.longitude, 10);
-        });
-
-        if (nearbyTheaters.length > 0) {
-            foundTheathers = true;
-        }
-
+    if (nearbyTheaters.length > 0) {
         nearbyTheaters.forEach(theater => {
             const theaterLatLng = new google.maps.LatLng(theater.geo.latitude, theater.geo.longitude);
             const marker = placeTheaterMarker(theater.geo.latitude, theater.geo.longitude, theater.name, theater.description, theater.url);
@@ -119,54 +141,39 @@ function displayNearbyTheaters(theaterData, cine) {
                 theaterMarkers.push(marker);
             }
         });
-
-        if (!foundTheathers) {
-            alert("No hay teatros cercanos.");
-            theaterMarkersDisplayed = false;
-        } else {
-            map.fitBounds(bounds);
-            theaterMarkersDisplayed = true;
-        }
-
+        map.fitBounds(bounds);
     }
 }
 
-function displayNearbyFerias(feriaData, cine) {
-    if (feriaMarkersDisplayed) {
-        clearFeriasMarkers();
-        feriaMarkersDisplayed = false;
-    } else {
-        const bounds = new google.maps.LatLngBounds();
-        const cineLatLng = new google.maps.LatLng(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude);
-        bounds.extend(cineLatLng);
+function displayNearbyFerias(feriaData, cine, distance) {
+    if (!feriaMarkersDisplayed) return;  // Si los marcadores de ferias no deben mostrarse, salir de la función.
 
-        let foundFerias = false;
+    clearFeriasMarkers();  // Limpia los marcadores existentes
+    const bounds = new google.maps.LatLngBounds();
+    const cineLatLng = new google.maps.LatLng(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude);
+    bounds.extend(cineLatLng);
 
-        feriaData.forEach(feria => {
+    const nearbyFerias = feriaData.filter(feria => {
+        return isNearby(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude, feria.location.geo.latitude, feria.location.geo.longitude, distance);
+    });
+
+    if (nearbyFerias.length > 0) {
+        nearbyFerias.forEach(feria => {
             const feriaLatLng = new google.maps.LatLng(feria.location.geo.latitude, feria.location.geo.longitude);
-            if (isNearby(cine.location.location[1].geo.latitude, cine.location.location[1].geo.longitude, feria.location.geo.latitude, feria.location.geo.longitude, 10)) {
-                foundFerias = true;
-                const marker = placeFeriaMarker(feria.location.geo.latitude, feria.location.geo.longitude, feria.name, feria.description, feria.startDate, feria.endDate);
-                if (marker) {
-                    bounds.extend(feriaLatLng);
-                    feriaMarkers.push(marker);
-                }
+            const marker = placeFeriaMarker(feria.location.geo.latitude, feria.location.geo.longitude, feria.name, feria.description, feria.startDate, feria.endDate);
+            if (marker) {
+                bounds.extend(feriaLatLng);
+                feriaMarkers.push(marker);
             }
         });
-
-        if (!foundFerias) {
-            alert("No hay ferias cercanas.");
-            feriaMarkersDisplayed = false;
-        } else {
-            map.fitBounds(bounds);
-            feriaMarkersDisplayed = true;
-        }
+        map.fitBounds(bounds);
     }
 }
+
 
 function clearFeriasMarkers() {
     feriaMarkers.forEach(marker => marker.setMap(null));
-    feriaMarkers = []; // Reset the markers array after clearing
+    feriaMarkers = [];
 }
 
 function placeFeriaMarker(lat, lng, name, description, startDate, endDate) {
@@ -200,7 +207,7 @@ function clearTheaterMarkers() {
         theaterMarkers.forEach(marker => {
             marker.setMap(null);
         });
-        theaterMarkers = []; // Reset the markers array after clearing
+        theaterMarkers = [];
     }
 }
 
@@ -230,7 +237,7 @@ function placeTheaterMarker(lat, lng, name, description, url) {
         infoWindow.open(map, marker);
     });
 
-    return marker; // Asegúrate de que el marcador se devuelve correctamente
+    return marker;
 }
 
 function isNearby(lat1, long1, lat2, long2, km) {
